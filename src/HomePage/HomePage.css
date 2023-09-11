@@ -1,0 +1,16 @@
+
+.homePage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the buttons along the main axis */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.buttonMappingBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the buttons along the main axis */
+  align-items: flex-start;
+
+} 
