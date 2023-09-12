@@ -1,23 +1,28 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CircularButton from '../CircularButton/CircularButton';
-import HOME_PAGE_CIRCLES_MAPPING_DATA from "../DataFolder/HomePageCirclesMappingData"
+import LESSONS_BREAKDOWN from '../DataFolder/LessonsBreakdown';
 import './HomePage.css';
 
 function HomePage() {
-    console.log("HOME_PAGE_CIRCLES_MAPPING_DATA", HOME_PAGE_CIRCLES_MAPPING_DATA)
+   
   return (
     <div className='homePage'>
        
         <div className='buttonMappingBox'>
-       {HOME_PAGE_CIRCLES_MAPPING_DATA.map((circle) => (
+       {LESSONS_BREAKDOWN.map((circle, index) => (
            <CircularButton
-           key={circle.id}
-           title={circle.title}
+           key={index}
+           title={circle.level}
            color={circle.color}
            />
           ))}
+
+          
+
+          
         </div>
+        
         </div>
         
   );

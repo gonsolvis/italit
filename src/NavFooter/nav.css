@@ -23,7 +23,7 @@ color: white;
 
 /* Add this CSS to change the color of dropdown links if needed */
 .dropdown-menu .dropdown-item {
-  color: white !important; /* Set the color to white for dropdown links */
+  color: black !important; /* Set the color to white for dropdown links */
 }
 
 /* Add this CSS to change the background color of dropdown links if needed */

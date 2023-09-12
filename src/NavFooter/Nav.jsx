@@ -21,9 +21,10 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+          <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
+            {/* 
             <li className="nav-item">
               <Link className="nav-link" to="/italian-grammar/A1">A1</Link>
             </li>
@@ -35,7 +36,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/italian-grammar/B2">B2</Link>
-            </li>
+            </li> */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -49,10 +50,10 @@ function Nav() {
                 Lessons
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                {LessonsBreakdown.map((lesson) => (
-                  <li key={lesson.id}>
-                    <Link to={lesson.url} className="dropdown-item">
-                      {lesson.title}
+                {LessonsBreakdown.map((lesson, index) => (
+                  <li key={index}>
+                    <Link to={lesson.levelUrl} className="dropdown-item">
+                      {lesson.level}
                     </Link>
                   </li>
                 ))}
