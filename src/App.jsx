@@ -7,30 +7,34 @@ import HomePage from './HomePage/HomePage';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import LESSONS_BREAKDOWN from './DataFolder/LessonsBreakdown';
 import IndividualLevelLandingPage from './IndividualLevelLandingPage/IndividualLevelLandingPage.jsx';
-import IndividualLesson from './IndividualLesson/IndividualLevelLandingPage.jsx';
-
+import IndividualLesson from './IndividualLesson/IndividualLesson.jsx';
+import lessons_index from './DataFolder/Lessons_index';
 function App() {
-  
   return (
     <Router>
       <div className='appComp'>
         <Nav />
         <Routes>
-        <Route path="/" element={<HomePage />} />
-        
-        {LESSONS_BREAKDOWN.map((lesson, index) => (
+          <Route path="/" element={<HomePage />} />
+
+          {LESSONS_BREAKDOWN.map((level, index) => (
             <Route
               key={index}
-              path={`/${lesson.levelUrl}`}
-              element={
-                <IndividualLevelLandingPage
-                lessons={lesson.classes}
-                      />
-              }
+              path={level.levelUrl}
+              element={<IndividualLevelLandingPage lessons={level.classes} />}
             />
+            
           ))}
 
-<Route path="/italian-grammar/a1/greetings" element={<IndividualLesson />} />
+{lessons_index.lessons.map((lesson, index) => (
+            <Route
+              key={index}
+              path={lesson.lessonUrl}
+              element={<IndividualLesson lesson={lesson.lesson} />}
+            />
+            
+          ))}
+       
         </Routes>
         <Footer />
       </div>

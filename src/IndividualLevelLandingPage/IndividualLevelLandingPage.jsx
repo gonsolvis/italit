@@ -15,7 +15,7 @@ console.log("propssss", props)
               See Lesson
             </Link>
             <Link to={lesson.gameUrl} className="card-link">
-              See Lesson
+              Test your knowledge
             </Link>
         </div>
         </div>
