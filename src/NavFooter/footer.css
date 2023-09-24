@@ -1,10 +1,13 @@
 .footer {
+  position: sticky; /* Change from absolute to sticky */
+  bottom: 0;
   background-color: #252525;
   color: white;
   width: 100%;
   padding: 1%;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* Add top shadow using negative y-offset */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
+
 
 .footer-container {
   display: flex;
@@ -13,7 +16,7 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} 
 
 .footer-column {
   flex: 1;

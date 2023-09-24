@@ -4,33 +4,34 @@ const lesson1 = [
     Lesson_title: "Italian Greetings",
     lesson_title: "italian greetings",
     description: "In this lesson, you will learn some common Italian greetings and how to use them in different situations.",
-    what_are: "Italian greetings are phrases used to greet people in different situations. They are an important part of Italian culture and etiquette.",
+    what_are: "Italian greetings are phrases used to greet people in various situations, and they play a significant role in Italian culture and etiquette. Italians are known for their warmth and friendliness, and greetings are a way to express politeness and establish connections.",
     content: `
-      <h3>Basic Greetings</h3>
-      <p>Here are some basic Italian greetings:</p>
-      <ul>
-        <li>Ciao - Hello/Hi</li>
-        <li>Buon giorno - Good morning</li>
-        <li>Buona sera - Good evening</li>
-        <li>Buona notte - Good night</li>
-        <li>Salve - Hi (formal)</li>
-        <li>Buon pomeriggio - Good afternoon</li>
-      </ul>
-      
-      <h3>Common Phrases</h3>
-      <p>You can also use these common phrases:</p>
-      <ul>
-        <li>Come stai? - How are you?</li>
-        <li>Mi chiamo [Your Name] - My name is [Your Name]</li>
-        <li>Piacere di conoscerti - Nice to meet you</li>
-      </ul>
-      
-      
-      <h3>Quiz</h3>
-      <p>Test your knowledge with our Italian greetings quiz!</p>
-    `,
-    when_to_use: "Italian greetings are used to greet people in various social situations. It's important to use the appropriate greeting based on the time of day and the level of formality.",
-  },
+   <h3>Basic Italian Greetings</h3>
+    <p>When learning a new language, it's important to start with the basics. In Italian, just like in any other language, greetings are an essential part of daily communication. Here are some fundamental Italian greetings that will help you get started:</p>
+    <ul>
+        <li><strong>Ciao</strong> - <em>Hello / Hi</em></li>
+        <li><strong>Buon giorno</strong> - <em>Good morning</em></li>
+        <li><strong>Buona sera</strong> - <em>Good evening</em></li>
+        <li><strong>Buona notte</strong> - <em>Good night</em></li>
+        <li><strong>Salve</strong> - <em>Hi (formal)</em></li>
+        <li><strong>Buon pomeriggio</strong> - <em>Good afternoon</em></li>
+    </ul>
+    
+    <h3>Common Italian Phrases</h3>
+    <p>In addition to greetings, it's helpful to know some common phrases that will allow you to engage in basic conversations. Here are a few commonly used Italian phrases:</p>
+    <ul>
+        <li><strong>Come stai?</strong> - <em>How are you?</em></li>
+        <li><strong>Mi chiamo [Your Name]</strong> - <em>My name is [Your Name]</em></li>
+        <li><strong>Piacere di conoscerti</strong> - <em>Nice to meet you</em></li>
+        <li><strong>Come ti chiami?</strong> - <em>What's your name?</em></li>
+    </ul>
+    
+    
+    <p>Learning these basic Italian greetings and phrases is a fantastic way to start your journey into the Italian language. Practice them, and you'll find that they open the door to meaningful interactions and connections with Italian speakers.</p>
+    
+    <p><em>Buona fortuna! (Good luck!)</em></p>
+         `,
+      },
   // Add more lesson objects as needed
 ];
 

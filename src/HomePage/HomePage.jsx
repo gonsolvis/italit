@@ -15,6 +15,7 @@ function HomePage() {
            key={index}
            title={circle.level}
            color={circle.color}
+           levelUrl={circle.levelUrl}
            />
           ))}
 

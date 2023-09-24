@@ -9,6 +9,8 @@ import LESSONS_BREAKDOWN from './DataFolder/LessonsBreakdown';
 import IndividualLevelLandingPage from './IndividualLevelLandingPage/IndividualLevelLandingPage.jsx';
 import IndividualLesson from './IndividualLesson/IndividualLesson.jsx';
 import lessons_index from './DataFolder/Lessons_index';
+import ARTICLES_GAME from "./DataFolder/GameInformation/ARTICLES_GAME"
+import GameStructure from "./GameStructure/GameStructure"
 function App() {
   return (
     <Router>
@@ -34,6 +36,17 @@ function App() {
             />
             
           ))}
+
+{lessons_index.lessons.map((lesson, index) => {
+            console.log("numbers language", lesson.game[0].gameObject);
+            return (
+              <Route
+                key={index}
+                path={`/${lesson.gameUrl}`}
+                element={<GameStructure cards={lesson.game[0].gameObject} lessonUrl={lesson.lessonUrl}/>}
+              />
+            );
+          })}
        
         </Routes>
         <Footer />

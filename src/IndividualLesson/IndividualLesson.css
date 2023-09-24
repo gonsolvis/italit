@@ -1,13 +1,4 @@
-/* Define your color variables */
 
-
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans&display=swap');
-
-/* Global styles */
-body {
-  font-family: 'PT Sans', sans-serif;
-}
 
 /* IndividualLesson styles */
 .IndividualLesson {
@@ -18,15 +9,41 @@ body {
   flex-wrap:wrap;
   width: 100%;
   height: 100vh;
+  overflow-y: scroll; 
   margin: 1%;
+
 
 }
 
+.contentContainerOuterBox {
+  width: 80%;
+  height: 80vh;
+  margin: 1%;
+  
+}
+h1 {
+font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+.contentContainer{
+ /* background-color: red;  */
+ max-width: 100%;
+ margin-block:2%;
+ 
+}
 
 /* Table styles */
 .my-table {
   width: 100vh;
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   margin: 1rem;
   font-size: 0.75rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-column">
           <p className="footer-column-p">
-            &copy; {new Date().getFullYear()} ScriptLit. All rights reserved.
+            &copy; {new Date().getFullYear()} ItaLit. All rights reserved.
           </p>
         </div>
         <div className="footer-column">
