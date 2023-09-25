@@ -1,5 +1,5 @@
 import React from 'react';
-import './Nav.css';
+import './nav.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LessonsBreakdown from '../DataFolder/LessonsBreakdown';
 import { Link } from 'react-router-dom'; // Import the Link component
