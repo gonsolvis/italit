@@ -12,6 +12,7 @@ import lessons_index from './DataFolder/Lessons_index';
 import DEFINITE_ARTICLES_GAME from "./DataFolder/GameInformation/DEFINITE_ARTICLES_GAME"
 import GameStructure from "./GameStructure/GameStructure"
 import NotFoundPage from "./NotFoundPage/NotFoundPage"
+import LandingPage from './LandingPage/LandingPage';
 function App() {
   return (
     <div className='appComp'>
@@ -19,6 +20,7 @@ function App() {
            <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/landing" element={<LandingPage />} />
 
           {LESSONS_BREAKDOWN.map((level, index) => (
             <Route
