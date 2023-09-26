@@ -18,7 +18,7 @@ color: white;
 
 /* Add this CSS to change the color of active links if needed */
 .navbar-nav .nav-link.active {
-  color: #ffcc00 !important; /* Set the color for active links (e.g., yellow) */
+  color:#14de5e !important; /* Set the color for active links (e.g., yellow) */
 }
 
 /* Add this CSS to change the color of dropdown links if needed */

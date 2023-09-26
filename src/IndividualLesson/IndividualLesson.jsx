@@ -9,14 +9,9 @@ function IndividualLesson(props) {
            <div className='contentContainerOuterBox'>
       {props.lesson.map((lesson, index) => (
         <div key={index}>
-          {/* <h1>{lesson.Lesson_title}</h1>
-          <p>{lesson.description}</p> */}
-          <h1>What are {lesson.lesson_title}?</h1>
+               <h1>What are {lesson.Lesson_title}?</h1>
           <p>{lesson.what_are}</p>
-          
-          <h2>Lets get started!</h2>
-     
-                  {/* Render HTML content safely */}
+        {/* Render HTML content safely */}
           <div className='contentContainer' dangerouslySetInnerHTML={{ __html: lesson.content }} />
                 <h3>Quiz</h3>
           <p>Test your knowledge of {lesson.lesson_title} with our <Link to={lesson.gameUrl}> quiz!</Link>  </p>

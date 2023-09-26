@@ -9,13 +9,14 @@ import LESSONS_BREAKDOWN from './DataFolder/LessonsBreakdown';
 import IndividualLevelLandingPage from './IndividualLevelLandingPage/IndividualLevelLandingPage.jsx';
 import IndividualLesson from './IndividualLesson/IndividualLesson.jsx';
 import lessons_index from './DataFolder/Lessons_index';
-import ARTICLES_GAME from "./DataFolder/GameInformation/ARTICLES_GAME"
+import DEFINITE_ARTICLES_GAME from "./DataFolder/GameInformation/DEFINITE_ARTICLES_GAME"
 import GameStructure from "./GameStructure/GameStructure"
+import NotFoundPage from "./NotFoundPage/NotFoundPage"
 function App() {
   return (
-    <Router>
-      <div className='appComp'>
-        <Nav />
+    <div className='appComp'>
+   <Router>
+           <Nav />
         <Routes>
           <Route path="/" element={<HomePage />} />
 
@@ -44,14 +45,16 @@ function App() {
                 key={index}
                 path={`/${lesson.gameUrl}`}
                 element={<GameStructure cards={lesson.game[0].gameObject} lessonUrl={lesson.lessonUrl}/>}
+              console
               />
             );
           })}
-       
+        <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
-      </div>
+    
     </Router>
+    </div>
   );
 }
 

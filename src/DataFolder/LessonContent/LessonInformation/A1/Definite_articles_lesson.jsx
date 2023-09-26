@@ -1,13 +1,12 @@
-const lesson2 = [
+const DEFINITE_ARTICLES_LESSON = [
   {
-    lesson_id: "lesson2",
     Lesson_title: "Definite Articles",
     lesson_title: "definite articles",
     description: "In this lesson, you will learn about definite articles in Italian and how to use them correctly.",
     what_are: "In Italian, definite articles are words used before nouns to indicate a specific or particular object or thing. These words correspond to the English word 'the.' The purpose of definite articles is to specify which noun we are talking about, making the sentence more precise. There are three different forms of definite articles in Italian, and they agree in gender (masculine or feminine) and number (singular or plural) with the noun they precede. ",
     gameUrl: "/italian-grammar/a1/games/articles",
     content: `
-    <table class="my-table">
+    <table class="my-table" id="table-wide">
     <thead>
         <tr>
             <th>Gender</th>
@@ -51,6 +50,68 @@ const lesson2 = [
     </tbody>
 </table>
 
+<table class="my-table" id="table-long">
+    <thead>
+        <tr>
+            <th>Gender</th>
+            <th>Singular Article</th>
+            <th>When to Use (Singular)</th>
+            <th>Singular Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Masculine</td>
+            <td>Il</td>
+            <td>Used before masculine singular nouns.</td>
+            <td>Il libro (The book), Il ragazzo (The boy), Il professore (The professor), Il cane (The dog)...</td>
+        </tr>
+        <tr>
+            <td>Masculine</td>
+            <td>Lo</td>
+            <td>Used before masculine singular nouns starting with "z," "gn," "ps," "y," or "s" followed by a consonant.</td>
+            <td>Lo zio (The uncle), Lo gnomo (The gnome), Lo psicologo (The psychologist), Lo yogurt (The yogurt), Lo specchio (The mirror), Lo strumento (The instrument)...</td>
+        </tr>
+        <tr>
+            <td>Feminine</td>
+            <td>La</td>
+            <td>Used before feminine singular nouns.</td>
+            <td>La casa (The house), La ragazza (The girl), La macchina (The car), La pizza (The pizza)...</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+    <thead>
+        <tr>
+            <th>Gender</th>
+            <th>Plural Article</th>
+            <th>When to Use (Plural)</th>
+            <th>Plural Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Masculine</td>
+            <td>I</td>
+            <td>Used before masculine plural nouns.</td>
+            <td>I libri (The books), I ragazzi (The boys), I professori (The professors), I cani (The dogs)...</td>
+        </tr>
+        <tr>
+            <td>Masculine</td>
+            <td>Gli</td>
+            <td>Used before masculine plural nouns starting with "z," "gn," "ps," "y," or "s" followed by a consonant.</td>
+            <td>Gli zii (The uncles), Gli gnomi (The gnomes), Gli psicologi (The psychologists), Gli yogurt (The yogurts), Gli specchi (The mirrors), Gli strumenti (The instruments)...</td>
+        </tr>
+        <tr>
+            <td>Feminine</td>
+            <td>Le</td>
+            <td>Used before feminine plural nouns.</td>
+            <td>Le case (The houses), Le ragazze (The girls), Le macchine (The cars), Le pizze (The pizzas)...</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
+
+
 <p> It is important to know that <strong>"L'"</strong> is used before singular nouns, both masculine and feminine, that begin with a vowel.</p>
 
 <table class="my-table">
@@ -91,4 +152,4 @@ const lesson2 = [
   // Add more lessons here
 ];
 
-export default lesson2;  
+export default DEFINITE_ARTICLES_LESSON;  

@@ -24,19 +24,6 @@ function Nav() {
           <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
-            {/* 
-            <li className="nav-item">
-              <Link className="nav-link" to="/italian-grammar/A1">A1</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/italian-grammar/A2">A2</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/italian-grammar/B1">B1</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/italian-grammar/B2">B2</Link>
-            </li> */}
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -60,12 +47,12 @@ function Nav() {
               </ul>
             </li>
           </ul>
-          <form className="d-flex">
+          {/* <form className="d-flex">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </nav>

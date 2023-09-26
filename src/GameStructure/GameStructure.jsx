@@ -10,7 +10,6 @@ import TimesUp from "./TimesUp";
 const AMOUNT_OF_CARDS = 3;
 
 function GameStructure({ cards, lessonUrl}) {
-  console.log("carddsds", cards)
   const [randomCards, setRandomCards] = useState([]);
   const [score, setScore] = useState(0);
   const [hearts, setHearts] = useState(5);
@@ -38,10 +37,10 @@ function GameStructure({ cards, lessonUrl}) {
 
   //clickhandler
   function ChecksIfMatchOnClick(element_two) {
-    let savedLetterCompId = randomCards[randomIndex].element_one;
+    let leftCard = randomCards[randomIndex].element_one;
       console.log("element_two", element_two)
-      console.log("savedLetterCompId", savedLetterCompId)
-         if (savedLetterCompId === element_two) {
+      console.log("savedLetterCompId", leftCard)
+         if (leftCard === element_two) {
       setScore((prevScore) => prevScore + 1); // Increase the score by 1
       setRandomSymbolCards();
     } else {

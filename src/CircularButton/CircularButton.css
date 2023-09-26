@@ -1,32 +1,33 @@
 /* CircularButton.css */
 .individualButtonDiv {
-  background-color: white;
-  /* border: 2px solid black;  */
-  width: 20%;
+   width: 20%;
   height:  20%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 10px;
+
 }
 
 
 /* actualButton.css */
 .circular-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px; /* Set the width and height to the same value */
-    height: 200px; /* Set the width and height to the same value */
+    width: 150px; /* Set the width and height to the same value */
+    height: 150px; /* Set the width and height to the same value */
     color: white; /* Button text color */
     border-radius: 50%; /* Make it circular */
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    border: 10px solid transparent;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Updated box shadow with bigger size */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-     }
+       } 
+
   
   .circular-button:hover {
    transform: scale(1.05); /* Add a slight scale effect on hover */
+  }
+  .circular-button-link {
+    text-decoration: none;
+  
   }
   
   /* Responsive design */

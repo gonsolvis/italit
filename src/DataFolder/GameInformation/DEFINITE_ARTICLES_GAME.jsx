@@ -1,4 +1,4 @@
-const ARTICLES_GAME = [
+const DEFINITE_ARTICLES_GAME = [
   {
     gameObject: [
       {
@@ -331,4 +331,4 @@ const ARTICLES_GAME = [
   },
 ];
 
-export default ARTICLES_GAME;
+export default DEFINITE_ARTICLES_GAME;

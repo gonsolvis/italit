@@ -1,8 +1,6 @@
-const lesson1 = [
+const GREETING_LESSON = [
   {
-    lesson_id: "lesson1",
     Lesson_title: "Italian Greetings",
-    lesson_title: "italian greetings",
     description: "In this lesson, you will learn some common Italian greetings and how to use them in different situations.",
     what_are: "Italian greetings are phrases used to greet people in various situations, and they play a significant role in Italian culture and etiquette. Italians are known for their warmth and friendliness, and greetings are a way to express politeness and establish connections.",
     content: `
@@ -35,4 +33,4 @@ const lesson1 = [
   // Add more lesson objects as needed
 ];
 
-export default lesson1;
+export default GREETING_LESSON;
