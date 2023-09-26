@@ -9,22 +9,20 @@ function HomePage() {
    
   return (
     <div className='homePage'>
+      <div className='innerhomepage'> 
 
- <div className="card w-75 h-100">
+ <div className="card w-75 h-75">
   <div className="card-body">
  <img className="home-image" src={romulus} alt="react logo" />
   <p >Italian, the language of love and art, beckons with its enchanting melodies and cultural riches. Learning Italian opens doors to a world of passion, culinary delights, and timeless beauty.
 
 Why learn Italian? It's your key to exploring Italy's artistic treasures, from Da Vinci's masterpieces to Dante's epic poetry.</p> 
-
-<p>Beyond the classics, Italian is a vibrant language spoken in multiple countries, making it a practical choice for travelers and enthusiasts.
-
-Immerse yourself in Italian, savor its beauty, and embark on a journey filled with culture and delight. Buona fortuna! (Good luck!)</p>
 {/* <img className="home-image" src={romulus} alt="react logo" /> */}
   </div> 
   </div> 
-   
+  </div>
         <div className='buttonMappingBox'>
+          <h1> Choose your level</h1>
        {LESSONS_BREAKDOWN.map((circle, index) => (
            <CircularButton
            key={index}

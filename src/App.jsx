@@ -24,7 +24,8 @@ function App() {
             <Route
               key={index}
               path={level.levelUrl}
-              element={<IndividualLevelLandingPage lessons={level.classes} />}
+              element={<IndividualLevelLandingPage lessons={level.classes} 
+              level={level.level} />}
             />
             
           ))}

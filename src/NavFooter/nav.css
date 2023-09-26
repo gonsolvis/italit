@@ -16,10 +16,10 @@ color: white;
   color: white !important; /* Set the color to white */
 }
 
-/* Add this CSS to change the color of active links if needed */
-.navbar-nav .nav-link.active {
-  color:#14de5e !important; /* Set the color for active links (e.g., yellow) */
-}
+
+/* .navbar-nav .nav-link.active {
+  color:#14de5e !important; 
+} */
 
 /* Add this CSS to change the color of dropdown links if needed */
 .dropdown-menu .dropdown-item {

@@ -19,6 +19,11 @@
   /* overflow-y: scroll; Remove the overflow-y property */
 }
 
+.IndividualLevelLandingPage-h1 {
+  color: white;
+  margin-top: 1%;
+  }
+
 .card-container {
   display: flex;
   flex-direction: column; /* Ensure cards stack vertically on smaller screens */
@@ -27,6 +32,7 @@
   flex-wrap: wrap;
   gap: 20px;
  width: 60%;
+ margin-block: 1%;
  
 
   /* Remove max-height and overflow-y properties */
