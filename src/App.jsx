@@ -19,8 +19,8 @@ function App() {
    <Router>
            <Nav />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/landing" element={<LandingPage />} />
+          <Route path="/landing" element={<HomePage />} />
+          <Route path="/" element={<LandingPage />} />
 
           {LESSONS_BREAKDOWN.map((level, index) => (
             <Route
