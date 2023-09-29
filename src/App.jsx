@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './NavFooter/Nav';
 import Footer from './NavFooter/Footer';
-import HomePage from './HomePage/HomePage';
+import LevelChoice from './LevelChoice/LevelChoice';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import LESSONS_BREAKDOWN from './DataFolder/LessonsBreakdown';
 import IndividualLevelLandingPage from './IndividualLevelLandingPage/IndividualLevelLandingPage.jsx';
@@ -12,15 +12,16 @@ import lessons_index from './DataFolder/Lessons_index';
 import DEFINITE_ARTICLES_GAME from "./DataFolder/GameInformation/DEFINITE_ARTICLES_GAME"
 import GameStructure from "./GameStructure/GameStructure"
 import NotFoundPage from "./NotFoundPage/NotFoundPage"
-import LandingPage from './LandingPage/LandingPage';
+import Home from './Home/Home';
+
 function App() {
   return (
     <div className='appComp'>
    <Router>
            <Nav />
         <Routes>
-          <Route path="/landing" element={<HomePage />} />
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/level_choice" element={<LevelChoice />} />
+          <Route path="/" element={<Home />} />
 
           {LESSONS_BREAKDOWN.map((level, index) => (
             <Route

@@ -1,0 +1,215 @@
+
+.LevelChoice{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the buttons along the main axis */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #FFF5E1;
+  overflow-y: auto;
+
+
+}
+
+.InnerLevelChoice {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the buttons along the main axis */
+  align-items: center;
+
+
+}
+/* .card {
+ margin-top: 2%;
+
+} */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  justify-content:center; 
+  align-items: center;
+  text-align: justify;
+}
+
+.home-image {
+  width: 10%;
+}
+.buttonMappingBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-evenly; /* Center the buttons along the main axis */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: none;
+  margin-bottom: 2%;
+
+} 
+ /* Responsive design */
+ @media (min-width: 768px) {
+  .buttonMappingBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around; /* Center the buttons along the main axis */
+    align-items: center;
+ 
+  
+  } 
+  .card-body p {
+ font-size: 1rem;
+  }
+
+  
+}
+@media (max-width: 768px) {
+  .card-body p {
+ font-size: 0.75rem;
+  }
+
+  
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+    .h1-home{
+        font-size: 3.5rem;          
+               
+           }
+    
+    #p-extraInfo {
+        display: none;
+      
+    }
+    .p-home {
+        font-size: 1.5rem;
+        text-align:center;
+        width: 100%;
+        
+    } 
+  }
+
+  @media (min-width: 767px) and (max-width: 1200px) {
+    .Home {
+      height: 80%;  
+    }
+   
+    #leftsideId {
+         display: none;
+          }
+
+          .rightside{
+            background-color: #FFF5E1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+          .minirightside {
+            width: 80%;          
+           
+           }
+           .h1-home {
+        font-size: 4rem;          
+               
+           }
+           .p-home {
+               font-size: 1.25rem;
+               text-align:justify;  
+               
+              }
+
+               #p-extraInfo {
+                font-size: 1.25rem;
+                text-align:justify;
+                
+              
+          
+               
+           } 
+           .button-home {
+            width: 225px; /* Adjust the width to your desired size */
+            height: 70px; /* Adjust the height to your desired size */
+            font-size: 1.25rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            outline: none;
+          
+        }
+  }
+  
+ /*
+ @media (min-width: 767px) and (max-width: 1200px) {
+    .h1-home{
+        font-size: 3.5rem;          
+               
+           }
+    
+    #p-extraInfo {
+        display: none;
+      
+    }
+    .p-home {
+        font-size: 1.5rem;
+        text-align:center;
+        width: 100%;
+        
+    } 
+  }
+
+  @media (max-width: 767px) {
+    .Home {
+      height: 80%;  
+    }
+   
+    #leftsideId {
+         display: none;
+          }
+
+          .rightside{
+            background-color: #FFF5E1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+          .minirightside {
+            width: 80%;          
+           
+           }
+           .h1-home {
+        font-size: 4rem;          
+               
+           }
+           .p-home {
+               font-size: 1.25rem;
+               text-align:justify;  
+               
+              }
+
+               #p-extraInfo {
+                font-size: 1.25rem;
+                text-align:justify;
+                
+              
+          
+               
+           } 
+           .button-home {
+            width: 225px; /* Adjust the width to your desired size */
+            height: 70px; /* Adjust the height to your desired size */
+            font-size: 1.25rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            outline: none;
+          
+        }
+  }
+  
+ 
+ */
