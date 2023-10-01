@@ -32,6 +32,7 @@ overflow: auto;
 .rightside{
     background-color: #FFF5E1;
     width: 50%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -83,7 +84,7 @@ overflow: auto;
     font-family: "CustomFont", sans-serif;
     font-weight: bolder;
 }
-  button-home:hover {
+  .button-home:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     /* background-color: #6d23e6;  */

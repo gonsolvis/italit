@@ -51,6 +51,11 @@ const GREETINGS_GAME = [
           element_one: "What's your name?",
           element_two: "Come ti chiami?",
         },
+        {
+          id: 11,
+          element_one: "My name is Roberto",
+          element_two: "Mi chiamo Roberto",
+        },
       ],
     },
   ];

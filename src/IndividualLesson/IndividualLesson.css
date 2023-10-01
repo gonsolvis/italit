@@ -8,7 +8,7 @@
   align-items: center;
   flex-wrap:wrap;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   overflow-y: auto; 
   text-align: justify;
 
@@ -45,7 +45,7 @@ h2 {
 }
 
 /* Table styles */
-.my-table {
+.my-table, table {
   width: 100vh;
   border-collapse: collapse;
   margin: 1rem;
@@ -54,14 +54,14 @@ h2 {
   background-color: #fff;
 }
 
-.my-table th,
-.my-table td {
+.my-table th, th,
+.my-table td, td {
   border: 1px solid #ddd;
   padding: 1rem;
   text-align: left;
 }
 
-.my-table th {
+.my-table th,table th {
   color: #252525;
   background-color: #F2F5F5;
 }
@@ -89,10 +89,9 @@ h2 {
     display: block;
   }
 
-  .my-table {
+  .my-table, table {
     width: 80%;
     border-collapse: collapse;
-    background-color: red;
     margin: 0.5rem;
     font-size: 0.70rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
