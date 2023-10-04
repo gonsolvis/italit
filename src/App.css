@@ -1,5 +1,6 @@
 
 /* purple: #8739f9
+black:  #252525;
 bllue: #37B9F1
 purple: #8739f9
 GREEN: #14de5e
@@ -12,6 +13,11 @@ DISABLED: #E1DFE9
 textsize one: 2.5rem
 textsize one: 2rem
 textsize one: 1.25rem*/
+
+/* STANDARD TEMPLATE */
+/* SMALL SCREENS - MEDIUM SCREENS */
+/* MEDIUM SCREENS - LARGE SCREENS */
+/* LARGE SCREENS + */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans&display=swap');

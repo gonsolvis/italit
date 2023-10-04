@@ -1,51 +1,46 @@
-
-
-/* IndividualLesson styles */
 .IndividualLesson {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   width: 100%;
   /* height: 100vh; */
-  overflow-y: auto; 
+  overflow-y: auto;
   text-align: justify;
-
-
+  font-family: 'Roboto', sans-serif;
 }
 
 .contentContainerOuterBox {
   width: 80%;
   height: 80vh;
   margin: 1%;
-
-  
 }
 h1 {
-font-size: 2rem;
+  font-size: 2rem;
+  
 }
 
 h2 {
   font-size: 1.5rem;
-  }
+}
 
-  h3 {
-    font-size: 1.25rem;
-  }
+h3 {
+  font-size: 1.25rem;
+}
 
-.contentContainer{
- /* background-color: red;  */
- max-width: 100%;
- margin-block:2%;
- display: flex;
- flex-direction: column;
- justify-content: center;
- 
+.contentContainer {
+  /* background-color: red;  */
+  max-width: 100%;
+  margin-block: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Table styles */
-.my-table, table {
+.my-table,
+table {
   width: 100vh;
   border-collapse: collapse;
   margin: 1rem;
@@ -54,34 +49,35 @@ h2 {
   background-color: #fff;
 }
 
-.my-table th, th,
-.my-table td, td {
+.my-table th,
+th,
+.my-table td,
+td {
   border: 1px solid #ddd;
   padding: 1rem;
   text-align: left;
 }
 
-.my-table th,table th {
+.my-table th,
+table th {
   color: #252525;
-  background-color: #F2F5F5;
+  background-color: #f2f5f5;
 }
-
 
 .my-table .table-heading {
   font-weight: bold;
 }
 
 #table-wide {
-  display:block
+  display: block;
 }
 #table-long {
   display: none;
 }
 
-
 @media (max-width: 769px) {
   /* Apply these styles for screens smaller than 768px (adjust as needed) */
-  
+
   #table-wide {
     display: none;
   }
@@ -89,13 +85,17 @@ h2 {
     display: block;
   }
 
-  .my-table, table {
+  .my-table,
+  table {
     width: 80%;
     border-collapse: collapse;
     margin: 0.5rem;
-    font-size: 0.70rem;
+    font-size: 0.7rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   
   }
-  
 }
+
+/* STANDARD TEMPLATE */
+/* SMALL SCREENS - MEDIUM SCREENS */
+/* MEDIUM SCREENS - LARGE SCREENS */
+/* LARGE SCREENS + */

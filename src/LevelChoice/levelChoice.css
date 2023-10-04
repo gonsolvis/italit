@@ -1,127 +1,114 @@
+/* STANDARD TEMPLATE */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .LevelChoice {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
-  width: 100%;
   background-color: #fff5e1;
-  overflow-y: auto;
+  
 }
 .InnerLevelChoice {
-
-  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center the buttons along the main axis */
+  justify-content: center;
   align-items: center;
-
+  background-color:  #252525;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-top: 2px solid transparent; /* Make the top border transparent */
+  border-image: linear-gradient(to right, #8739f9, #25c3e7);
+  border-image-slice: 1;
 }
 
-.h1-LevelChoice{
-  font-family: "CustomFont", sans-serif;
-  margin: 30px;
-  color: #8739f9;
-  font-style: italic;
-  font-size: 3rem;
-
-
-}
-
+.h1-LevelChoice {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+ }
 
 .p-levelchoice {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 
-  font-size: 2.5rem;
-  text-align: justify;
-  font-family: "CustomFont", sans-serif;
-  color: #8739f9;
-  line-height: 2;
-  
 }
-
-
-@media (max-width: 768px) {
-
-.h1-LevelChoice{
-  font-size: 2.3rem;
-  border: none;
-} 
-
-.p-levelchoice {
-
-  font-size: 1.5rem;
-  text-align: justify;
-  font-family: "CustomFont", sans-serif;
-  color: #8739f9;
-  line-height: 2;
-  
-}
-
 
 .buttonMappingBox {
   display: flex;
   flex-direction: column;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
-  background-color: blue;
+  gap: 3%;
+  
 }
+
+/* SMALL SCREENS - MEDIUM SCREENS */
+@media (max-width: 768px) {
+  .h1-LevelChoice {
+    font-size: 1.2rem;
+  }
+
+  .p-levelchoice {
+    font-size: 1rem;
+  }
+
 }
+
+.p-levelchoice-extra{
+display: none;
+}
+
+/* MEDIUM SCREENS - LARGE SCREENS */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .h1-LevelChoice{
-    font-family: "CustomFont", sans-serif;
-    margin: 30px;
-    color: #8739f9;
-    font-style: italic;
-    font-size: 2.5rem;
-  
-  
+  .h1-LevelChoice {
+    font-size: 1.5rem;
   }
-  
-  
+
   .p-levelchoice {
-  
-    font-size: 2rem;
+    font-size: 1.2rem;
+  }
+}
+/* LARGE SCREENS + */
+@media (min-width: 1200px) {
+
+  .LevelChoice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+  .h1-LevelChoice {
+    font-size: 1.5rem;
+  }
+
+  .p-levelchoice {
+   display: none;
+  }
+
+  .p-levelchoice-extra{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: block;
     text-align: justify;
-    font-family: "CustomFont", sans-serif;
-    color: #8739f9;
-    line-height: 2;
-    
+    max-width: 50em; /* Adjust as needed for your design */
+
   }
 
-  @media (min-width: 1200px) {
-    .buttonMappingBox {
-      display: flex;
-      flex-direction: row;
-      justify-content: center ;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      background-color: none;
-      margin-bottom: 2%;
-      overflow-y: auto;
-      background-color: red;
-      padding: 10%;
-    }
+  .buttonMappingBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
+    width: 100%;
+    height: 100%;
 
-    .h1-LevelChoice{
-    font-size: 3rem;
-    
-    
-    }
-    
-    
-    .p-levelchoice {
-    font-size: 2.5rem;
-    line-height: 2;
-      
-    }
-     
   }
-
-
-
-
-
-
-
-
+}

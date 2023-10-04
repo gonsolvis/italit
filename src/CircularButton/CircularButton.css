@@ -1,49 +1,46 @@
-/* CircularButton.css */
+/* STANDARD TEMPLATE */
+
 .individualButtonDiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10px;
-
 }
 
-
-/* actualButton.css */
 .circular-button {
-    color: white; /* Button text color */
-    border-radius: 50%; /* Make it circular */
-    border: 10px solid transparent;
+  color: white; /* Button text color */
+  border-radius: 50%; /* Make it circular */
+  border: 10px solid transparent;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Updated box shadow with bigger size */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-       } 
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
 
-  
+.circular-button:hover {
+  transform: scale(1.05); /* Add a slight scale effect on hover */
+  transform: translateY(-10px);
+}
+.circular-button-link {
+  text-decoration: none;
+}
+
+/* SMALL SCREENS - MEDIUM SCREENS */
+@media (max-width: 768px) {
+  .circular-button {
+    width: 90px; /* Set the width and height to the same value */
+    height: 90px; /* Set the width and height to the same value */
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
+  }
   .circular-button:hover {
-   transform: scale(1.05); /* Add a slight scale effect on hover */
-   transform: translateY(-10px);
-  }
-  .circular-button-link {
-    text-decoration: none;
-  
-  }
-  
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .circular-button {
-      width: 150px; /* Set the width and height to the same value */
-      height: 150px; /* Set the width and height to the same value */
-      font-size: 40px; /* Adjust font size for smaller screens */
-         }
-    .circular-button:hover {
     transform: translateX(10px);
   }
 }
 
+/* MEDIUM SCREENS - LARGE SCREENS */
 @media (min-width: 767px) {
   .circular-button {
-    width:180px; /* Set the width and height to the same value */
-    height: 180px; /* Set the width and height to the same value */
-    font-size: 40px; /* Adjust font size for smaller screens */
-    
+    width: 120px; /* Set the width and height to the same value */
+    height: 120px; /* Set the width and height to the same value */
+    font-size: 1.3rem; /* Adjust font size for smaller screens */
   }
 }
+/* LARGE SCREENS + */
