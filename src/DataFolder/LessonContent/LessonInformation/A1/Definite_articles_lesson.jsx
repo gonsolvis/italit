@@ -2,8 +2,10 @@ const DEFINITE_ARTICLES_LESSON = [
   {
     Lesson_title: "Definite Articles",
     lesson_title: "definite articles",
-    description: "In this lesson, you will learn about definite articles in Italian and how to use them correctly.",
-    what_are: "In Italian, definite articles are words used before nouns to indicate a specific or particular object or thing. These words correspond to the English word 'the.' The purpose of definite articles is to specify which noun we are talking about, making the sentence more precise. There are three different forms of definite articles in Italian, and they agree in gender (masculine or feminine) and number (singular or plural) with the noun they precede. ",
+    description:
+      "In this lesson, you will learn about definite articles in Italian and how to use them correctly.",
+    what_are:
+      "In Italian, definite articles are words used before nouns to indicate a specific or particular object or thing. These words correspond to the English word 'the.' The purpose of definite articles is to specify which noun we are talking about, making the sentence more precise. There are three different forms of definite articles in Italian, and they agree in gender (masculine or feminine) and number (singular or plural) with the noun they precede. ",
     gameUrl: "/italian-grammar/a1/games/articles",
     content: `
     <table class="my-table" id="table-wide">
@@ -111,39 +113,56 @@ const DEFINITE_ARTICLES_LESSON = [
     </tbody>
 </table>
 
+</br>
+<h3>L'amica</h3>
 
-<p> It is important to know that <strong>"L'"</strong> is used before singular nouns, both masculine and feminine, that begin with a vowel.</p>
+<p> It is important to know that <strong>"L'"</strong> is used before both masculine and feminine singular nouns that begin with a vowel.
+When it comes to plural nouns starting with a vowel, the feminine vowels follow the previous <strong>"Le"</strong> pattern but the masculine starts with a <strong>"Gli".</strong></p>
 
 <table class="my-table">
     <thead>
         <tr>
-            <th>Noun</th>
-            <th>Singular Example</th>
+        <th>Gender</th>
+               <th>Singular Example</th>
+            <th>Plural Example</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Uomo (Man)</td>
+        <td>Masculine</td>
+        
             <td>L'uomo (The man)</td>
+            <td>Gli uomini (The men)</td>
         </tr>
         <tr>
-            <td>Amica (Friend - Feminine)</td>
+        <td>Feminine</td>
+        
+   
             <td>L'amica (The friend)</td>
+            <td>Le amiche (The friends)</td>
         </tr>
         <tr>
-            <td>Orologio (Watch)</td>
+        <td>Masculine</td>
+    
+      
             <td>L'orologio (The watch)</td>
+            <td>Gli orologi (The watches)</td>
         </tr>
         <tr>
-            <td>Albero (Tree)</td>
+        <td>Masculine</td>
+        
+          
             <td>L'albero (The tree)</td>
+            <td>Gli alberi (The trees)</td>
         </tr>
         <!-- Add more examples as needed -->
     </tbody>
 </table>
 
 
-      <p> Notice how in english we use "the" for both singular and plural nouns, this is not the same in italian.
+      <p> Notice how in english we use "the" for both singular and plural nouns, this is not the same in italian. </p>
+      
+</br>
       <p>It's important to note that while these rules generally apply to regular nouns, there can be exceptions in the Italian language. For example, words like "la mano" (by hand) or "le dita" (fingers) have irregular forms when it comes to articles. These exceptions are part of the rich and nuanced nature of the Italian language, so don't be surprised if you come across them. But we will explore them here!</p>
 
 
@@ -152,4 +171,4 @@ const DEFINITE_ARTICLES_LESSON = [
   // Add more lessons here
 ];
 
-export default DEFINITE_ARTICLES_LESSON;  
+export default DEFINITE_ARTICLES_LESSON;

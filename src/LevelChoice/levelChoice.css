@@ -56,11 +56,19 @@
     font-size: 1rem;
   }
 
+  
+.buttonMappingBox {
+  margin: 20px auto;
+  
 }
 
-.p-levelchoice-extra{
-display: none;
+  .p-levelchoice-extra{
+    display: none;
+    }
+  
 }
+
+
 
 /* MEDIUM SCREENS - LARGE SCREENS */
 

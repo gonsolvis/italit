@@ -28,7 +28,7 @@
   .circular-button {
     width: 90px; /* Set the width and height to the same value */
     height: 90px; /* Set the width and height to the same value */
-    font-size: 1.3rem; /* Adjust font size for smaller screens */
+    font-size: 1rem; /* Adjust font size for smaller screens */
   }
   .circular-button:hover {
     transform: translateX(10px);
@@ -40,7 +40,7 @@
   .circular-button {
     width: 120px; /* Set the width and height to the same value */
     height: 120px; /* Set the width and height to the same value */
-    font-size: 1.3rem; /* Adjust font size for smaller screens */
+    font-size: 1rem; /* Adjust font size for smaller screens */
   }
 }
 /* LARGE SCREENS + */

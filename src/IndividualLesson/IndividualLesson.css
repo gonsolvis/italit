@@ -1,33 +1,37 @@
+
+
+/* STANDARD TEMPLATE */
 .IndividualLesson {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
 }
 
-.contentContainerOuterBox {
-  width: 80%;
-  margin: 1%;
-}
-h1 {
-  font-size: 2rem;
+
+.h1-IndividualLesson {
+  margin-top: 20px;
+  text-align: center;
   
 }
 
-h2 {
-  font-size: 1.5rem;
-}
+.contentContainerOuterBox p {
+  margin: auto  20px ;
+   
+   }
+
+
 
 h3 {
   font-size: 1.25rem;
+  text-align: center  ;
+  
 }
 
+
 .contentContainer {
-  /* background-color: red;  */
   max-width: 100%;
   margin-block: 2%;
   display: flex;
@@ -38,21 +42,25 @@ h3 {
 /* Table styles */
 .my-table,
 table {
-  width: 100vh;
   border-collapse: collapse;
-  margin: 1rem;
+  margin: 0.75rem;
   font-size: 0.75rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  overflow-y: auto;
+  text-align: center;
 }
 
 .my-table th,
 th,
 .my-table td,
 td {
-  border: 1px solid #ddd;
+  border: 1px solid black; /* Change the border color to black */
   padding: 1rem;
   text-align: left;
+}
+
+table tr,table td {
+  border: 1px solid black; /* Change the border color to black */
 }
 
 .my-table th,
@@ -72,8 +80,23 @@ table th {
   display: none;
 }
 
+.individuallesson-link {
+  text-decoration: none;
+  color:#8739f9;
+  font-weight: bold;
+}
+
+/* SMALL SCREENS - MEDIUM SCREENS */
+
 @media (max-width: 769px) {
-  /* Apply these styles for screens smaller than 768px (adjust as needed) */
+   h3 {
+    font-size: 1.20rem;
+   
+   
+  }
+  
+
+
 
   #table-wide {
     display: none;
@@ -84,7 +107,6 @@ table th {
 
   .my-table,
   table {
-    width: 80%;
     border-collapse: collapse;
     margin: 0.5rem;
     font-size: 0.7rem;
@@ -92,7 +114,5 @@ table th {
   }
 }
 
-/* STANDARD TEMPLATE */
-/* SMALL SCREENS - MEDIUM SCREENS */
 /* MEDIUM SCREENS - LARGE SCREENS */
 /* LARGE SCREENS + */
