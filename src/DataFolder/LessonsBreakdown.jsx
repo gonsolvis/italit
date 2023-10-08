@@ -2,7 +2,7 @@ import lessons_index from "./Lessons_index";
 
 
 
-console.log("lessons_index",lessons_index.lessons[0].lessonUrl)
+
 const LESSONS_BREAKDOWN = [
   {
     level: "A1",
@@ -22,9 +22,15 @@ const LESSONS_BREAKDOWN = [
         // lesson: lesson2,
       },
       {
-        title: "Indefinite Articles",
-        lessonUrl: "/italian-grammar/a1/indefinite_articles",
-        gameUrl: "/italian-grammar/a1/games/indefinite_articles",
+        title: lessons_index.lessons[2].title,
+        lessonUrl: lessons_index.lessons[2].lessonUrl,
+        gameUrl: lessons_index.lessons[2].gameUrl,
+        // lesson: lesson2,
+      },
+      {
+        title: lessons_index.lessons[3].title,
+        lessonUrl: lessons_index.lessons[3].lessonUrl,
+        gameUrl: lessons_index.lessons[3].gameUrl,
         // lesson: lesson2,
       },
       {

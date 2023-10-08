@@ -3,12 +3,14 @@ import './nav.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LessonsBreakdown from '../DataFolder/LessonsBreakdown';
 import { Link } from 'react-router-dom'; // Import the Link component
+import logo from '../images/homepage-nav.png'; // Replace with the actual path to your image
+
 
 function Nav() {
   return (
     <nav className="navbar navbar-expand">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">ItaLit</Link>
+      <img src={logo} alt="My Image" className='nav-logo' />
         <button
           className="navbar-toggler"
           type="button"

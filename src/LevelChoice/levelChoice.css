@@ -10,6 +10,12 @@
   background-color: #fff5e1;
   
 }
+.levelchoice-logo{
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+}
+
 .InnerLevelChoice {
   display: flex;
   flex-direction: column;

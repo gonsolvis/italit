@@ -261,12 +261,7 @@ const DEFINITE_ARTICLES_GAME = [
         element_one: "i",
         element_two: "lavori",
       },
-      {
-        id: 71,
-        element_one: "le",
-        element_two: "città",
-      },
-      {
+       {
         id: 72,
         element_one: "le",
         element_two: "strade",

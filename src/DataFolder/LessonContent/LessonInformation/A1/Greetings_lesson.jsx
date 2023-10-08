@@ -1,6 +1,8 @@
-const GREETING_LESSON = [
+const GREETINGS_LESSON = [
   {
     Lesson_title: "Italian Greetings",
+    lessonUrl: "/italian-grammar/a1/greetings",
+    gameUrl: "/italian-grammar/a1/games/greetings",
     description:
       "In this lesson, you will learn some common Italian greetings and how to use them in different situations.",
     what_are:
@@ -92,4 +94,4 @@ const GREETING_LESSON = [
   // Add more lesson objects as needed
 ];
 
-export default GREETING_LESSON;
+export default GREETINGS_LESSON;

@@ -17,19 +17,15 @@ textsize one: 2rem*/
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .inner-gamestructure {
-height: 90%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
-
-
 
 .points-box {
   display: flex;
@@ -107,22 +103,44 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
- }
+}
+
+
+
+/* CSS Animation for shaking */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(5px); }
+}
+
+.game--card--div.shake-animation {
+  animation: shake 0.5s infinite; /* Adjust the duration and animation iteration as needed */
+  border: 2px solid red; /* Default border color (black) */
+}
+
 
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 575px) {
 
+  .inner-gamestructure {
+    height: 70%;
+    width: 1000%;
+
+  }
 
   .cards-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 15px;
+    padding: 25px;
   }
 
   .pointsComp {
-    height: 70px;
+    height: 90px;
     width: 300px;
     padding: 5%;
     /* margin-bottom: 100px; */
@@ -137,12 +155,11 @@ align-items: center;
 
   /*game card comp*/
   .game--card--div {
-    width: 125px;
+    width: 135px;
   }
 
   #LetterGameWord {
     font-size: 0.85rem;
-
     padding-top: 15px;
   }
   .game--card--p {
@@ -155,19 +172,16 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-  
   }
 }
 
-
 /* MEDIUM SCREENS - LARGE SCREENS */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-
   .cards-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 100px;  
+    gap: 100px;
     padding: 15px;
   }
 
@@ -176,12 +190,10 @@ align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 50px;
-  
   }
-
 }
 /* LARGE SCREENS + */
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px) {
   .inner-gamestructure {
     height: 90%;
     width: 70%;
@@ -189,25 +201,20 @@ align-items: center;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
-    }
+  }
 
-    .cards-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      gap: 150px;  
-      padding: 15px;
-    }
-    
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    padding: 15px;
+  }
 
   .segments {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     gap: 120px;
-  
   }
-
-
 }

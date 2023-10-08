@@ -1,12 +1,12 @@
 const DEFINITE_ARTICLES_LESSON = [
   {
     Lesson_title: "Definite Articles",
-    lesson_title: "definite articles",
+    lessonUrl: "/italian-grammar/a1/definite_articles",
+    gameUrl: "/italian-grammar/a1/games/definite_articles",
     description:
       "In this lesson, you will learn about definite articles in Italian and how to use them correctly.",
     what_are:
       "In Italian, definite articles are words used before nouns to indicate a specific or particular object or thing. These words correspond to the English word 'the.' The purpose of definite articles is to specify which noun we are talking about, making the sentence more precise. There are three different forms of definite articles in Italian, and they agree in gender (masculine or feminine) and number (singular or plural) with the noun they precede. ",
-    gameUrl: "/italian-grammar/a1/games/articles",
     content: `
     <table class="my-table" id="table-wide">
     <thead>

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import CircularButton from "../CircularButton/CircularButton";
 import LESSONS_BREAKDOWN from "../DataFolder/LessonsBreakdown";
 import "./levelChoice.css";
+import image from "../images/cesar.png"; // Replace with the actual path to your image
 
 function LevelChoice() {
   return (
@@ -26,6 +27,7 @@ function LevelChoice() {
           all language aspects, opening advanced opportunities!{" "}
         </p>
       </div>
+      {/* <img src={image} alt="My Image" className='levelchoice-logo' /> */}
       <div className="buttonMappingBox">
         {LESSONS_BREAKDOWN.map((circle, index) => (
           <CircularButton

@@ -1,29 +1,47 @@
 // Lesson Imports
-import Greetings_lesson from "./LessonContent/LessonInformation/A1/Greetings_lesson";
-import Definite_articles_lesson from "./LessonContent/LessonInformation/A1/Definite_articles_lesson";
+import GREETINGS_LESSON from "./LessonContent/LessonInformation/A1/GREETINGS_LESSON";
+import DEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/DEFINITE_ARTICLES_LESSON";
+import INDEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/INDEFINITE_ARTICLES_LESSON";
+import GENDERS_LESSON from "./LessonContent/LessonInformation/A1/GENDERS.LESSON";
+// Game Imports
 import GREETINGS_GAME from "./GameInformation/GREETINGS_GAME.JSX";
 import DEFINITE_ARTICLES_GAME from "./GameInformation/DEFINITE_ARTICLES_GAME";
-
-// Import more lessons as needed...
+import GENDERS_GAME from "./GameInformation/GENDERS_GAME";
 
 // Create a Lessons object
 const lessons_index = {
   lessons: [
-    { title: "Greetings and Introductions",
-      lesson: Greetings_lesson,
-      game:GREETINGS_GAME,
-      lessonUrl: "/italian-grammar/a1/greetings", // Add the lessonUrl property
-      gameUrl: "/italian-grammar/a1/games/greetings",
+    {
+      lesson: GREETINGS_LESSON,
+      title: GREETINGS_LESSON[0].Lesson_title,
+      lessonUrl: GREETINGS_LESSON[0].lessonUrl,
+      gameUrl: GREETINGS_LESSON[0].gameUrl,
+      game: GREETINGS_GAME,
     },
     {
-      title: "Definite Articles",
-      lesson: Definite_articles_lesson,
-      game:DEFINITE_ARTICLES_GAME,
-      lessonUrl: "/italian-grammar/a1/definite_articles", // Add the lessonUrl property
-      gameUrl: "/italian-grammar/a1/games/definite_articles",
+      lesson: DEFINITE_ARTICLES_LESSON,
+      title: DEFINITE_ARTICLES_LESSON[0].Lesson_title,
+      lessonUrl: DEFINITE_ARTICLES_LESSON[0].lessonUrl,
+      gameUrl: DEFINITE_ARTICLES_LESSON[0].gameUrl,
+      game: DEFINITE_ARTICLES_GAME,
+    },
+    {
+      lesson: INDEFINITE_ARTICLES_LESSON,
+      title: INDEFINITE_ARTICLES_LESSON[0].Lesson_title,
+      lessonUrl: INDEFINITE_ARTICLES_LESSON[0].lessonUrl,
+      gameUrl: INDEFINITE_ARTICLES_LESSON[0].gameUrl,
+      game: INDEFINITE_ARTICLES_LESSON,
+    },
+    {
+      lesson: GENDERS_LESSON,
+      title: GENDERS_LESSON[0].Lesson_title,
+      lessonUrl: GENDERS_LESSON[0].lessonUrl,
+      gameUrl: GENDERS_LESSON[0].gameUrl,
+      game: GENDERS_GAME,
     },
     // Add more lessons as needed...
   ],
 };
+
 
 export default lessons_index;
