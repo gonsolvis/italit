@@ -81,7 +81,8 @@ function GameStructure({ cards, lessonUrl}) {
 
   return randomCards.length ? (
     <div className="outside--gameStructure">
-      <div className="outer--pointidv">
+    <div className="inner-gamestructure"> 
+      <div className="points-box">
         <PointsComp
           currentScore={score}
           heartsLeft={hearts}
@@ -128,6 +129,7 @@ function GameStructure({ cards, lessonUrl}) {
         </div>
       </div>
     </div>
+    </div> 
   ) : null;
 }
 

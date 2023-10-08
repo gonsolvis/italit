@@ -9,27 +9,33 @@ textsize one: 4rem
 textsize one: 3rem
 textsize one: 2rem*/
 
+/* STANDARD TEMPLATE */
 .outside--gameStructure {
   background-color: #f2f5f5;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  overflow-y: auto; /* Add vertical scroll */
-  background-image: url("../images/Daco_5228516.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 100%;
+  justify-content: center;
+
 }
 
-.outer--pointidv {
-  background-color: none;
-  height: 15%;
-  width: 100%;
+.inner-gamestructure {
+height: 90%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+
+.points-box {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .pointsComp {
@@ -40,7 +46,6 @@ textsize one: 2rem*/
   flex-direction: row;
   justify-content: space-around;
   border-radius: 20px;
-  margin-top: 40px;
 }
 
 #score {
@@ -72,19 +77,14 @@ textsize one: 2rem*/
 }
 
 .cards-container {
-  height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 10%;
+  gap: 50px;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .game--card--div {
-  width: 120px;
-  height: 120px;
   font-size: 20px;
   box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.25); /* Updated box shadow with bigger size */
 }
@@ -107,19 +107,22 @@ textsize one: 2rem*/
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* gap: 70px; */
-}
+ }
 
-/* Default styles for all screen sizes */
+/* SMALL SCREENS - MEDIUM SCREENS */
 
-/* Media query for screens smaller than 576px */
 @media (max-width: 575px) {
-  .outside--gameStructure {
-    height: 80vh;
-    width: 100%;
+
+
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
   }
+
   .pointsComp {
-    height: 75px;
+    height: 70px;
     width: 300px;
     padding: 5%;
     /* margin-bottom: 100px; */
@@ -134,24 +137,17 @@ textsize one: 2rem*/
 
   /*game card comp*/
   .game--card--div {
-    width: 120px;
-    height: 120px;
-  }
-  #LetterGameWord {
-    font-size: 1.25rem;
-  }
-  .game--card--p {
-    font-size: 1.25rem;
+    width: 125px;
   }
 
-  .cards-container {
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
+  #LetterGameWord {
+    font-size: 0.85rem;
+
+    padding-top: 15px;
+  }
+  .game--card--p {
+    font-size: 0.85rem;
+    padding-top: 15px;
   }
 
   .segments {
@@ -159,20 +155,59 @@ textsize one: 2rem*/
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+  
   }
 }
 
-/* Media query for screens between 576px and 768px */
-@media (min-width: 576px) and (max-width: 767px) {
-  /* Styles for medium-sized screens */
-}
 
-/* Media query for screens between 768px and 992px */
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Styles for larger screens */
-}
+/* MEDIUM SCREENS - LARGE SCREENS */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 
-/* Media query for screens larger than 992px */
-@media (min-width: 992px) {
-  /* Styles for extra-large screens */
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;  
+    padding: 15px;
+  }
+
+  .segments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+  
+  }
+
+}
+/* LARGE SCREENS + */
+@media screen and (min-width: 1200px)  {
+  .inner-gamestructure {
+    height: 90%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+
+    .cards-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 150px;  
+      padding: 15px;
+    }
+    
+
+  .segments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 120px;
+  
+  }
+
+
 }

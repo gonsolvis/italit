@@ -1,12 +1,11 @@
 import "./gameStructure.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-function SymbolComp({ symbol, id, ChecksIfMatchOnClick }) {
+function SymbolComp({ symbol, ChecksIfMatchOnClick }) {
   return (
-    <div className="card game--card--div" onClick={ChecksIfMatchOnClick}>
-      <div className="card-body game--card--body">
+    <div className="game--card--div card " onClick={ChecksIfMatchOnClick}>
+      <div className="game--card--body card-body">
         <p className="game--card--p">{symbol}</p>
-        {/* <p className="card-title">{id}</p> */}
       </div>
     </div>
   );
