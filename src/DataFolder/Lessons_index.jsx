@@ -1,5 +1,5 @@
 // Lesson Imports
-import GREETINGS_LESSON from "./LessonContent/LessonInformation/A1/GREETINGS_LESSON"
+import GREETINGS_LESSON from "./LessonContent/LessonInformation/A1/GREETINGS_LESSON";
 import DEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/DEFINITE_ARTICLES_LESSON";
 import INDEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/INDEFINITE_ARTICLES_LESSON";
 import GENDERS_LESSON from "./LessonContent/LessonInformation/A1/GENDERS.LESSON";
