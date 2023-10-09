@@ -2,15 +2,10 @@ import DEFINITE_ARTICLES_LESSON from "../DataFolder/LessonContent/LessonInformat
 import INDEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/INDEFINITE_ARTICLES_LESSON";
 import GENDERS_LESSON from "./LessonContent/LessonInformation/A1/GENDERS_LESSON";
 import GREETINGS_LESSON from "./LessonContent/LessonInformation/A1/Greetings_lesson";
-
-
-// Game Imports
 import GREETINGS_GAME from "./GameInformation/GREETINGS_GAME.jsx";
 import DEFINITE_ARTICLES_GAME from "./GameInformation/DEFINITE_ARTICLES_GAME";
 import GENDERS_GAME from "./GameInformation/GENDERS_GAME";
 
-
-// Create a Lessons object
 const lessons_index = {
   lessons: [
     {
