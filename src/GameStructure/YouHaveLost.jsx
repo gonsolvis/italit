@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeartCrack } from "@fortawesome/free-solid-svg-icons";
 
 export default function YouHaveLost(props) {
+  console.log("propsyouhavelost", props);
+
   const toggleModal = () => {
     console.log("I am being fucking clicked");
   };
@@ -30,7 +32,7 @@ export default function YouHaveLost(props) {
             Restart Game
           </button>
           <button className="restart-button my-3 mx-5">
-            <Link to={`/${props.lessonUrl}`} className="modal-button-link">
+            <Link to={`${props.lessonUrl}`} className="modal-button-link">
               Want to study more?
             </Link>
           </button>

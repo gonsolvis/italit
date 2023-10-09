@@ -7,6 +7,7 @@
   text-align: justify;
   font-family: "Roboto", sans-serif;
   background-color: #fff5e1;
+
 }
 
 .h1-IndividualLesson {
@@ -49,11 +50,13 @@ td {
   border: 1px solid black; /* Change the border color to black */
   padding: 1rem;
   text-align: left;
+  background-color: white;
 }
 
 table tr,
 table td {
   border: 1px solid black; /* Change the border color to black */
+  background-color: whit;
 }
 
 .my-table th,
@@ -65,9 +68,7 @@ table th {
 .my-table .table-heading {
   font-weight: bold;
 }
-.my-table tbody tr:nth-child(even) {
-  background-color: white;
-}
+
 
 /* Define CSS styles for table headers */
 .my-table thead tr {
@@ -114,8 +115,15 @@ table th {
     margin: 0.5rem;
     font-size: 0.7rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-inline: 5%;
   }
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
 /* LARGE SCREENS + */
+@media (min-width: 1200px) {
+.my-table,
+table {
+  margin: 2% 4%;
+}
+}
