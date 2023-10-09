@@ -1,4 +1,3 @@
-// Lesson Imports
 import DEFINITE_ARTICLES_LESSON from "../DataFolder/LessonContent/LessonInformation/A1/DEFINITE_ARTICLES_LESSON"
 import INDEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/INDEFINITE_ARTICLES_LESSON";
 import GENDERS_LESSON from "./LessonContent/LessonInformation/A1/GENDERS_LESSON";
