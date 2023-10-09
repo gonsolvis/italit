@@ -1,4 +1,4 @@
-import LESSONS_INDEX from "./LESSONS_INDEX";
+import LESSONS_INDEX from "./Lessons_index";
 
 const LESSONS_BREAKDOWN = [
   {

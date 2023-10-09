@@ -8,7 +8,7 @@ import LevelChoice from "./LevelChoice/LevelChoice";
 import LESSONS_BREAKDOWN from "./DataFolder/LessonsBreakdown";
 import IndividualLevelLandingPage from "./IndividualLevelLandingPage/IndividualLevelLandingPage.jsx";
 import IndividualLesson from "./IndividualLesson/IndividualLesson.jsx";
-import LESSONS_INDEX from "./DataFolder/LESSONS_INDEX";
+import LESSONS_INDEX from "./DataFolder/Lessons_index";
 import GameStructure from "./GameStructure/GameStructure";
 import NotFoundPage from "./NotFoundPage/NotFoundPage";
 
