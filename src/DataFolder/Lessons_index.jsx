@@ -1,10 +1,12 @@
-import DEFINITE_ARTICLES_LESSON from "../DataFolder/LessonContent/LessonInformation/A1/DEFINITE_ARTICLES_LESSON"
+import GREETINGS_LESSON from "./LessonContent/LessonInformation/A1/GREETINGS_LESSON";
+import DEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/DEFINITE_ARTICLES_LESSON"
 import INDEFINITE_ARTICLES_LESSON from "./LessonContent/LessonInformation/A1/INDEFINITE_ARTICLES_LESSON";
 import GENDERS_LESSON from "./LessonContent/LessonInformation/A1/GENDERS_LESSON";
-import GREETINGS_LESSON from "./LessonContent/LessonInformation/A1/Greetings_lesson";
-import GREETINGS_GAME from "./GameInformation/GREETINGS_GAME.jsx";
+import GREETINGS_GAME from "./GameInformation/GREETINGS_GAME";
 import DEFINITE_ARTICLES_GAME from "./GameInformation/DEFINITE_ARTICLES_GAME";
+import INDEFINITE_ARTICLES_GAME from "./GameInformation/INDEFINITE_ARTICLES_GAME";
 import GENDERS_GAME from "./GameInformation/GENDERS_GAME";
+
 
 const lessons_index = {
   lessons: [
@@ -27,7 +29,7 @@ const lessons_index = {
       title: INDEFINITE_ARTICLES_LESSON[0].Lesson_title,
       lessonUrl: INDEFINITE_ARTICLES_LESSON[0].lessonUrl,
       gameUrl: INDEFINITE_ARTICLES_LESSON[0].gameUrl,
-      game: INDEFINITE_ARTICLES_LESSON,
+      game: INDEFINITE_ARTICLES_GAME,
     },
     {
       lesson: GENDERS_LESSON,
