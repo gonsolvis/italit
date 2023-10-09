@@ -8,7 +8,7 @@ import INDEFINITE_ARTICLES_GAME from "./GameInformation/INDEFINITE_ARTICLES_GAME
 import GENDERS_GAME from "./GameInformation/GENDERS_GAME";
 
 
-const lessons_index = {
+const LESSONS_INDEX = {
   lessons: [
     {
       lesson: GREETINGS_LESSON,
@@ -43,4 +43,4 @@ const lessons_index = {
 };
 
 
-export default lessons_index;
+export default LESSONS_INDEX;

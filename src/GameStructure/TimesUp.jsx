@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function TimesUp(props) {
   const toggleModal = () => {
     console.log("I am being fucking clicked");
-    console.log("I am lessonUrl fucking clicked", props.lessonUrl);
+
   };
 
   return (

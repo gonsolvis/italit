@@ -4,8 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function IndividualLevelLandingPage(props) {
-  console.log("IndividualLevelLandingPage", props);
-
   return (
     <div className='IndividualLevelLandingPage'>
        <h1 className='IndividualLevelLandingPage-h1'> Lessons {props.level}</h1>

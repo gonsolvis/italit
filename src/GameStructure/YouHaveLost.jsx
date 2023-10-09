@@ -1,11 +1,9 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./endModal.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeartCrack } from "@fortawesome/free-solid-svg-icons";
 
 export default function YouHaveLost(props) {
-  console.log("propsyouhavelost", props);
 
   const toggleModal = () => {
     console.log("I am being fucking clicked");

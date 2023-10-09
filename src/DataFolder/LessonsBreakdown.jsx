@@ -1,7 +1,4 @@
-import lessons_index from "./Lessons_index";
-
-
-
+import LESSONS_INDEX from "./LESSONS_INDEX";
 
 const LESSONS_BREAKDOWN = [
   {
@@ -10,27 +7,27 @@ const LESSONS_BREAKDOWN = [
     color: '#37B9F1',
     classes: [
       {
-        title: lessons_index.lessons[0].title,
-        lessonUrl: lessons_index.lessons[0].lessonUrl,
-        gameUrl: lessons_index.lessons[0].gameUrl,
+        title: LESSONS_INDEX.lessons[0].title,
+        lessonUrl: LESSONS_INDEX.lessons[0].lessonUrl,
+        gameUrl: LESSONS_INDEX.lessons[0].gameUrl,
                // lesson: lesson1,
       },
       {
-        title: lessons_index.lessons[1].title,
-        lessonUrl: lessons_index.lessons[1].lessonUrl,
-        gameUrl: lessons_index.lessons[1].gameUrl,
+        title: LESSONS_INDEX.lessons[1].title,
+        lessonUrl: LESSONS_INDEX.lessons[1].lessonUrl,
+        gameUrl: LESSONS_INDEX.lessons[1].gameUrl,
         // lesson: lesson2,
       },
       {
-        title: lessons_index.lessons[2].title,
-        lessonUrl: lessons_index.lessons[2].lessonUrl,
-        gameUrl: lessons_index.lessons[2].gameUrl,
+        title: LESSONS_INDEX.lessons[2].title,
+        lessonUrl: LESSONS_INDEX.lessons[2].lessonUrl,
+        gameUrl: LESSONS_INDEX.lessons[2].gameUrl,
         // lesson: lesson2,
       },
       {
-        title: lessons_index.lessons[3].title,
-        lessonUrl: lessons_index.lessons[3].lessonUrl,
-        gameUrl: lessons_index.lessons[3].gameUrl,
+        title: LESSONS_INDEX.lessons[3].title,
+        lessonUrl: LESSONS_INDEX.lessons[3].lessonUrl,
+        gameUrl: LESSONS_INDEX.lessons[3].gameUrl,
         // lesson: lesson2,
       },
       {

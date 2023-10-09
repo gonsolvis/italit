@@ -4,7 +4,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 
 function IndividualLesson(props) {
-  console.log("new props", props);
   return (
     <div className="IndividualLesson">
       {props.lesson.map((lesson, index) => (
