@@ -8,7 +8,7 @@ import LevelChoice from "./LevelChoice/LevelChoice";
 import LESSONS_BREAKDOWN from "./DataFolder/LessonsBreakdown";
 import IndividualLevelLandingPage from "./IndividualLevelLandingPage/IndividualLevelLandingPage.jsx";
 import IndividualLesson from "./IndividualLesson/IndividualLesson.jsx";
-import lessons_index from "./DataFolder/LESSONS_INDEX";
+import LESSONS_INDEX from "./DataFolder/LESSONS_INDEX";
 import GameStructure from "./GameStructure/GameStructure";
 import NotFoundPage from "./NotFoundPage/NotFoundPage";
 
@@ -35,7 +35,7 @@ function App() {
             />
           ))}
 
-          {lessons_index.lessons.map((lesson, index) => (
+          {LESSONS_INDEX.lessons.map((lesson, index) => (
             <Route
               key={index}
               path={lesson.lessonUrl}
@@ -48,7 +48,7 @@ function App() {
             />
           ))}
 
-          {lessons_index.lessons.map((lesson, index) => {
+          {LESSONS_INDEX.lessons.map((lesson, index) => {
                 return (
               <Route
                 key={index}
