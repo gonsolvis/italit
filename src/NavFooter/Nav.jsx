@@ -36,7 +36,7 @@ function Nav() {
                 data-bs-bs="dropdown"     // Bootstrap 5 dropdown
                 aria-expanded="false"
               >
-                Lessons
+                Levels
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 {LessonsBreakdown.map((lesson, index) => (

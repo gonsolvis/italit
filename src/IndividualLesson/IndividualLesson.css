@@ -9,6 +9,24 @@
   background-color: #fff5e1;
 
 }
+.backBox {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+  /* background-color: wheat; */
+
+}
+.link-backbox {
+  text-decoration: none;
+  color: #8739f9;
+} 
+.link-backbox:hover {
+  text-decoration: underline;
+  color: #8739f9;
+} 
+
 
 .h1-IndividualLesson {
   margin-top: 20px;
@@ -93,6 +111,12 @@ table th {
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 769px) {
+  .backBox {
+    gap: 15px;
+    font-size: 1.3rem;
+  }
+  
+
   ul {
  width: 390px;
 
@@ -120,8 +144,18 @@ table th {
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
+.backBox {
+  gap: 15px;
+  font-size: 1.45rem;
+}
+
 /* LARGE SCREENS + */
 @media (min-width: 1200px) {
+  .backBox {
+    gap: 40px;
+    font-size: 1.7rem;
+  }
+  
 .my-table,
 table {
   margin: 2% 4%;

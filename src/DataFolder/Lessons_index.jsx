@@ -16,6 +16,7 @@ const LESSONS_INDEX = {
       lessonUrl: GREETINGS_LESSON[0].lessonUrl,
       gameUrl: GREETINGS_LESSON[0].gameUrl,
       game: GREETINGS_GAME,
+      
     },
     {
       lesson: DEFINITE_ARTICLES_LESSON,

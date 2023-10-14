@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
+
 function HeartsComp({ heartsLeft }) {
   const FIVE_HEARTS = (
     <div>
+
       <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} />
       <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} />
       <FontAwesomeIcon icon={faHeart} style={{ color: "red" }} />

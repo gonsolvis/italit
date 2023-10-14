@@ -3,7 +3,7 @@ import LESSONS_INDEX from "./Lessons_index";
 const LESSONS_BREAKDOWN = [
   {
     level: "A1",
-    levelUrl: '/italian-grammar/A1',
+    levelUrl: '/italian-grammar/a1',
     color: '#37B9F1',
     classes: [
       {
@@ -76,7 +76,7 @@ const LESSONS_BREAKDOWN = [
   },
   {
     level: "A2",
-    levelUrl: '/italian-grammar/A2',
+    levelUrl: '/italian-grammar/a2',
     color: '#8739f9',
     classes: [
       {  title: "Past Tenses", level: "A2", lessonUrl: "/italian-grammar/a2/past-tenses", gameUrl: "/italian-grammar/a2/games/past-tenses" },
@@ -93,7 +93,7 @@ const LESSONS_BREAKDOWN = [
   },
 {
   level: "B1",
-  levelUrl: '/italian-grammar/B1',
+  levelUrl: '/italian-grammar/b1',
   color: '#14de5e',
   classes: [
     {  title: "Shopping and Bargaining", level: "B1", lessonUrl: "/italian-grammar/b1/shopping", gameUrl: "/italian-grammar/b1/games/shopping" },
