@@ -10,7 +10,7 @@ function Home() {
     <div className="Home">
       <div className="leftside" id="leftsideId"></div>
       <div className="rightside">
-        <div className="minirightside">
+        {/* <div className="minirightside"> */}
           {/* <h1 className="h1-home"> ItaLit</h1> */}
           <img src={logoHome} alt="My Image" className='logohome' />
           <p className="p-home">
@@ -27,7 +27,7 @@ function Home() {
           </Link>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 

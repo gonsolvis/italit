@@ -1,24 +1,41 @@
 
-body {
-  background-color: none;
-  
 
+/* Import the font using @import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-}
-
-/* colours */
+/* COLOURS */
 :root {
   --purple:#8739f9;
   --blue: #37B9F1;
   --green: #14de5e;
   --cream: #fff5e1;
   --off_back:#252525;
-
-
-
-
-
+  --white:white;
 }
+
+/* FONTS */
+
+:root {
+  --funkyFont: "CustomFont", sans-serif;
+  --woff2-font-source: url("./Mattone-150.woff2") format("woff2");
+  --woff-font-source: url("./Mattone-150.woff") format("woff");
+}
+
+/* @font-face rule using the variables */
+@font-face {
+  font-family: var(--custom-font-family);
+  src: var(--woff2-font-source), var(--woff-font-source);
+}
+
+
+
+:root {
+  --standardFont: 'Roboto', sans-serif; /* Define a CSS variable for the font family */
+}
+
+
+
+
 /* STANDARD TEMPLATE */
 :root {
   --base-font-size: 16px; /* Base font size for the entire application */
@@ -26,39 +43,60 @@ body {
   --h1-font-size: 2rem;
   --h2-font-size: 1.75rem;
   --h3-font-size: 1.5rem;
+  --big-p-font-size: 1.25rem;
   --p-font-size: 1rem;
   --table-font-size: 0.875rem;
+  --button-font-size: 1rem; /* Default button font size */
 }
 
-/* SMALL SCREENS - MEDIUM SCREENS */
+/* SMALL SCREENS */
 @media screen and (max-width: 768px) {
   :root {
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
+    --big-p-font-size: 1rem;
     --p-font-size: 0.875rem;
     --table-font-size: 0.75rem;
+    --button-font-size: 0.9rem; /* Adjust the button font size for small screens */
   }
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
   :root {
     --h1-font-size: 2.5rem;
     --h2-font-size: 2rem;
     --h3-font-size: 1.75rem;
+    --big-p-font-size: 1.35rem;
     --p-font-size: 1.125rem;
     --table-font-size: 1rem;
+    --button-font-size: 1.1rem; /* Adjust the button font size for medium screens */
   }
 }
 
 /* LARGE SCREENS + */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   :root {
     --h1-font-size: 3rem;
     --h2-font-size: 2.5rem;
     --h3-font-size: 2rem;
+    --big-p-font-size: 1.35rem;
     --p-font-size: 1.25rem;
     --table-font-size: 1.125rem;
+    --button-font-size: 1.2rem; /* Adjust the button font size for large screens */
   }
 }
+/* XL LARGER SCREENS + */
+@media screen and (min-width: 1200px) {
+  :root {
+    --h1-font-size: 3rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 2rem;
+    --big-p-font-size: 1.4rem;
+    --p-font-size: 1.25rem;
+    --table-font-size: 1.125rem;
+    --button-font-size: 1.2rem; /* Adjust the button font size for large screens */
+  }
+}
+

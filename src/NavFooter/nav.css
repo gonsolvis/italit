@@ -1,21 +1,21 @@
 nav {
   width: 100%;
-  background-color: #252525;
+  background-color: var(--off_back);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-color: white;
+color: var(--white);
 }
 
 .navbar-brand {
-  color: white !important; /* Set the color to white */
+  color: var(--white) !important; /* Set the color to var(--white) */
   font-style: italic;
 }
 
 
-/* Add this CSS to make the links white */
+/* Add this CSS to make the links var(--white) */
 .navbar-nav .nav-link {
-  color: white !important; /* Set the color to white */
+  color: var(--white) !important; /* Set the color to var(--white) */
   padding: 20px 15px !important;;
-  font-size: 1.25rem;
+  font-size: var(--p-font-size);
 }
 
 #heefoidsmoids {
@@ -26,12 +26,12 @@ color: white;
 
 /* Add this CSS to change the color of dropdown links if needed */
 .dropdown-menu .dropdown-item {
-  color: black !important; /* Set the color to white for dropdown links */
+  color: var(--off_back)!important; /* Set the color to var(--white) for dropdown links */
 }
 
 /* Add this CSS to change the background color of dropdown links if needed */
 .dropdown-menu .dropdown-item:hover {
-  background-color: #007bff !important; /* Set the background color on hover (e.g., blue) */
+  background-color:var(--purple) !important; /* Set the background color on hover (e.g., blue) */
 }
 
 .nav-logo {
