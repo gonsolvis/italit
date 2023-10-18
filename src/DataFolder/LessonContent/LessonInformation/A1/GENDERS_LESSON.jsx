@@ -1,14 +1,14 @@
 const GENDERS_LESSON = [
   {
     Lesson_title: "Genders in Italian",
-    lessonUrl: "/italian-grammar/a1/genders",
-    gameUrl: "/italian-grammar/a1/games/genders",
+    lessonUrl: "/italian-grammar/a1/lesson/genders",
+    gameUrl: "/italian-grammar/a1/game/genders",
     what_are:
       "In Italian, nouns have gender, which means they are classified as either masculine or feminine. This is important for learning definite articles(the) and for indefinite articles(a/an/some) which will be covered next lesson. Although some things may have 'masculine' or 'feminine' qualities or are used maybe more by a certain gender this does not change what gender the noun may have ",
     content: `
-      <br/>
-        <h3>How to Determine Noun Gender</h3>
+           <h3>How to Determine Noun Gender</h3>
         <p>In Italian, the gender of a noun is not always immediately obvious from the word itself. Here are some general guidelines to help you determine the gender of Italian nouns:</p>
+        </br>
         <ul>
           <li> Nouns ending in -o are typically masculine. For example, <em>libro</em> (book) is masculine. Other masculine nouns ending in -o include <em>ragazzo</em> (boy), <em>cane</em> (dog), <em>tavolo</em> (table), and <em>amico</em> (friend).</li>
   

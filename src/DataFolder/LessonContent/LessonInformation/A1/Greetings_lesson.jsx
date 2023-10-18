@@ -1,8 +1,8 @@
 const GREETINGS_LESSON = [
   {
     Lesson_title: "Italian Greetings",
-    lessonUrl: "/italian-grammar/a1/greetings",
-    gameUrl: "/italian-grammar/a1/games/greetings",
+    lessonUrl: "/italian-grammar/a1/lesson/greetings",
+    gameUrl: "/italian-grammar/a1/game/greetings",
     description:
       "In this lesson, you will learn some common Italian greetings and how to use them in different situations.",
     what_are:

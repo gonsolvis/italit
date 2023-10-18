@@ -1,0 +1,10 @@
+
+.LessonImage-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LessonImage {
+  width: 150px;
+  height: 150px;
+}

@@ -88,9 +88,9 @@
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 767px) {
-  .Home {
+  /* .Home {
     height: 80%;
-  }
+  } */
 
   .logohome {
     width: 150px;

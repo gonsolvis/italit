@@ -5,3 +5,60 @@ body {
 
 
 }
+
+/* colours */
+:root {
+  --purple:#8739f9;
+  --blue: #37B9F1;
+  --green: #14de5e;
+  --cream: #fff5e1;
+  --off_back:#252525;
+
+
+
+
+
+}
+/* STANDARD TEMPLATE */
+:root {
+  --base-font-size: 16px; /* Base font size for the entire application */
+
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.75rem;
+  --h3-font-size: 1.5rem;
+  --p-font-size: 1rem;
+  --table-font-size: 0.875rem;
+}
+
+/* SMALL SCREENS - MEDIUM SCREENS */
+@media screen and (max-width: 768px) {
+  :root {
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --p-font-size: 0.875rem;
+    --table-font-size: 0.75rem;
+  }
+}
+
+/* MEDIUM SCREENS - LARGE SCREENS */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.75rem;
+    --p-font-size: 1.125rem;
+    --table-font-size: 1rem;
+  }
+}
+
+/* LARGE SCREENS + */
+@media screen and (min-width: 1025px) {
+  :root {
+    --h1-font-size: 3rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 2rem;
+    --p-font-size: 1.25rem;
+    --table-font-size: 1.125rem;
+  }
+}

@@ -3,7 +3,7 @@ const INDEFINITE_ARTICLES_GAME = [
     gameObject: [
       {
         id: 1,
-        element_one: "un",
+        element_one: "uno",
         element_two: "zaino",
       },
       {
@@ -63,8 +63,8 @@ const INDEFINITE_ARTICLES_GAME = [
       },
       {
         id: 13,
-        element_one: "della",
-        element_two: "musica",
+        element_one: "delle",
+        element_two: "musiche",
       },
       {
         id: 14,

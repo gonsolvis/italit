@@ -4,8 +4,8 @@
   width: 100%;
   display: flex;
   justify-content: start;
-  padding-top: 20px;
-  /* background-color: wheat; */
+padding-left: 25px;
+
 }
 .link-backbox {
   text-decoration: none;
@@ -20,21 +20,19 @@
 
 @media (max-width: 769px) {
   .backBox {
-    gap: 15px;
+
     font-size: 1.3rem;
   }
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
 .backBox {
-  gap: 15px;
   font-size: 1.45rem;
 }
 
 /* LARGE SCREENS + */
 @media (min-width: 1200px) {
   .backBox {
-    gap: 40px;
     font-size: 1.7rem;
   }
 }

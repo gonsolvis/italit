@@ -31,47 +31,48 @@ const LESSONS_BREAKDOWN = [
         // lesson: lesson2,
       },
       {
-        title: "Numbers and Counting",
-        lessonUrl: "/italian-grammar/a1/numbers",
-        gameUrl: "/italian-grammar/a1/games/numbers",
-        // lesson: lesson3,
+        title: LESSONS_INDEX.lessons[4].title,
+        lessonUrl: LESSONS_INDEX.lessons[4].lessonUrl,
+        gameUrl: LESSONS_INDEX.lessons[4].gameUrl,
+        // lesson: lesson2,
       },
       {
         title: "Family and Relationships",
-        lessonUrl: "/italian-grammar/a1/family",
-        gameUrl: "/italian-grammar/a1/games/family",
+        lessonUrl: "/italian-grammar/a1/lesson/family", // Updated
+        gameUrl: "/italian-grammar/a1/game/family",
         // lesson: lesson4,
       },
       {
         title: "Adjectives and Descriptions",
-        lessonUrl: "/italian-grammar/a1/adjectives",
-        gameUrl: "/italian-grammar/a1/games/adjectives",
+        lessonUrl: "/italian-grammar/a1/lesson/adjectives", // Updated
+        gameUrl: "/italian-grammar/a1/game/adjectives",
         // lesson: lesson5,
       },
       {
         title: "Basic Sentence Structure",
-        lessonUrl: "/italian-grammar/a1/sentence-structure",
-        gameUrl: "/italian-grammar/a1/games/sentence-structure",
+        lessonUrl: "/italian-grammar/a1/lesson/sentence-structure", // Updated
+        gameUrl: "/italian-grammar/a1/game/sentence-structure",
         // lesson: lesson6,
       },
       {
         title: "Everyday Activities",
-        lessonUrl: "/italian-grammar/a1/everyday-activities",
-        gameUrl: "/italian-grammar/a1/games/everyday-activities",
+        lessonUrl: "/italian-grammar/a1/lesson/everyday-activities", // Updated
+        gameUrl: "/italian-grammar/a1/game/everyday-activities",
         // lesson: lesson7,
       },
       {
         title: "Verb Conjugation (Present Tense)",
-        lessonUrl: "/italian-grammar/a1/verb-conjugation",
-        gameUrl: "/italian-grammar/a1/games/verb-conjugation",
+        lessonUrl: "/italian-grammar/a1/lesson/verb-conjugation", // Updated
+        gameUrl: "/italian-grammar/a1/game/verb-conjugation",
         // lesson: lesson8,
       },
       {
         title: "Asking Questions",
-        lessonUrl: "/italian-grammar/a1/asking-questions",
-        gameUrl: "/italian-grammar/a1/games/asking-questions",
+        lessonUrl: "/italian-grammar/a1/lesson/asking-questions", // Updated
+        gameUrl: "/italian-grammar/a1/game/asking-questions",
         // lesson: lesson9,
       },
+      
     ],
   },
   {

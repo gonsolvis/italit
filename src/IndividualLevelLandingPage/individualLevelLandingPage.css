@@ -4,8 +4,6 @@
   flex-direction: column; /* Change to column layout */
   align-items: center;
   justify-content: center; /* Adjust to start content at the top */
-  width: 100%;
-  min-height: 100vh; /* Set a minimum height to avoid cutting off cards */
   overflow-y: auto;
   background-image: linear-gradient(
       to right,
@@ -44,7 +42,7 @@ margin-left: 20px;
 
 }
 .IndividualLevelLandingPage button .BackButton .backBox .link-backbox {
-  color: white;
+  color: white !important;
 font-size: 1.5rem;
 }
 .IndividualLevelLandingPage button .BackButton .backBox .link-backbox #faArrowLeft{
@@ -102,6 +100,13 @@ h5.card-title {
 }
 
 /* SMALL SCREENS - MEDIUM SCREENS */
+@media (max-width: 769px) {
+  .card-container {
+    margin-block: 5%;
+  }
+}
+
+
 /* MEDIUM SCREENS - LARGE SCREENS */
 @media (min-width: 769px) {
   .card-container {
@@ -113,5 +118,7 @@ h5.card-title {
   .card {
     width: 225px;
   }
+
+ 
 }
 /* LARGE SCREENS + */

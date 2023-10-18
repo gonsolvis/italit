@@ -10,16 +10,18 @@
     const location = useLocation();
     let backlink = null;
     let text = null
+
+
+    
   
     if (location.pathname.includes("/italian-grammar/a1/")) {
       backlink = "/italian-grammar/a1";
       text = "Back to Lessons"
     } 
-    if (location.pathname === "/italian-grammar/a1") {
+      if (location.pathname === "/italian-grammar/a1" || location.pathname === "/italian-grammar/a2" || location.pathname === "/italian-grammar/b1") {
       backlink = "/level_choice";
-      text = "Back to Levels"
+      text = "Back to Levels";
     }
-
     console.log("backlink:", backlink);
     return (
       <div className="BackButton">

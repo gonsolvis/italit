@@ -1,8 +1,8 @@
 const DEFINITE_ARTICLES_LESSON = [
   {
     Lesson_title: "Definite Articles",
-    lessonUrl: "/italian-grammar/a1/definite_articles",
-    gameUrl: "/italian-grammar/a1/games/definite_articles",
+    lessonUrl: "/italian-grammar/a1/lesson/definite_articles",
+    gameUrl: "/italian-grammar/a1/game/definite_articles",
     description:
       "In this lesson, you will learn about definite articles in Italian and how to use them correctly.",
     what_are:

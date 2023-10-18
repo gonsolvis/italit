@@ -34,7 +34,7 @@
 }
 
 .contentContainerOuterBox p {
-  margin: auto 20px;
+  margin: auto 40px;
 }
 
 h3 {
@@ -54,7 +54,7 @@ h3 {
 .my-table,
 table {
   border-collapse: collapse;
-  margin: 0.75rem;
+  margin: 1.75rem;
   font-size: 0.75rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
@@ -111,6 +111,11 @@ table th {
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 769px) {
+  
+  .IndividualLesson ul li  {
+ padding-inline: 30px;
+   }
+  
   .backBox {
     gap: 15px;
     font-size: 1.3rem;
@@ -136,11 +141,10 @@ table th {
   .my-table,
   table {
     border-collapse: collapse;
-    margin: 0.5rem;
+    margin: 1.5rem;
     font-size: 0.7rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-inline: 5%;
-  }
+   }
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
