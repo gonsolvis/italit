@@ -47,6 +47,7 @@
   --p-font-size: 1rem;
   --table-font-size: 0.875rem;
   --button-font-size: 1rem; /* Default button font size */
+  --standard-padding: 4% 4%;
 }
 
 /* SMALL SCREENS */

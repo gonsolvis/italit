@@ -6,8 +6,6 @@ import BackButton from "../BackButton/BackButton";
 import LessonImage from "../LessonImage/LessonImage";
 
 function IndividualLesson(props) {
-  console.log("props", props)
-  console.log("props")
   return (
     <div className="IndividualLesson">
         {props.lesson.map((lesson, index) => (
@@ -18,13 +16,11 @@ function IndividualLesson(props) {
             What are {lesson.Lesson_title}?
           </h1>
           <p>{lesson.what_are}</p>
-          <br />
-          <div
+                   <div
             className="contentContainer"
             dangerouslySetInnerHTML={{ __html: lesson.content }}
           />
-          <br />
-          {/* <h3>Quiz</h3> */}
+                {/* <h3>Quiz</h3> */}
           <p>
             Test your knowledge of {lesson.lesson_title} with our
             <Link className="individuallesson-link" to={props.gameUrl}> QUIZ!</Link></p>

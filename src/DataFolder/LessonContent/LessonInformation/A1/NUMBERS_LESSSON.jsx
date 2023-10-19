@@ -5,8 +5,7 @@ const NUMBERS_LESSSON = [
     gameUrl: "/italian-grammar/a1/game/numbers",
     content: `
     <p> Cardinal numbers are the basic numbers we use to count things and express quantities. They are important in our everyday language, like saying \"one apple\" or \"two books,\" and in math when we do addition, subtraction, and other calculations. In simple terms, they're the numbers we use when we want to talk about how many of something there are. </p>
-    </br>
-      <h3>Counting from 1 to 100</h3>
+        <h3>Counting from 1 to 100</h3>
       <p> In Italian, counting is quite straightforward. Lets start from 1 to 100 :</p>
       <table border="1">
       <tr>
@@ -116,8 +115,7 @@ const NUMBERS_LESSSON = [
       </tr>
   </table>
 
-      </br>
-      <h3>Counting from 20 to 100</h3>
+        <h3>Counting from 20 to 100</h3>
     <p>Now, let's move on to counting from 20 to 100 in Italian. You already know the numbers up to 20, so this will be an extension of what you've learned.</p>
     <table border="1">
     <tr>
@@ -261,9 +259,7 @@ const NUMBERS_LESSSON = [
     </table>
     <p>Remember that counting in Italian is often a combination of the tens and the ones. For example, "trentuno" is 31, "quarantadue" is 42, and "cinquantasette" is 57. Continue this pattern up to 100, and you'll have a good foundation for counting in Italian.</p>
  
-
-    </br>
-    <h3>Counting from 100 to 1000</h3>
+   <h3>Counting from 100 to 1000</h3>
   <p>Certainly! Counting from 100 to 1000 in Italian involves understanding the pattern for combining the hundreds and tens along with the units. Here's how you can count in that range:</p>
  
   <table border="1">

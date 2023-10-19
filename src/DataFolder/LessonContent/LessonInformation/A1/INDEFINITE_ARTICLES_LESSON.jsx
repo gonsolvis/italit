@@ -41,8 +41,7 @@ const INDEFINITE_ARTICLES_LESSON = [
   </tr>
 </table>
 
-        </br>
-        <h3>Using Indefinite Articles</h3>
+          <h3>Using Indefinite Articles</h3>
         <p>To use indefinite articles correctly in Italian, you need to consider the gender and number of the noun you're introducing. Here are some guidelines:</p>
         <table>
           <tr>
