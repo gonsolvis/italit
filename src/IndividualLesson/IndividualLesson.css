@@ -5,46 +5,65 @@
   justify-content: center;
   align-items: center;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
-  background-color: #fff5e1;
-
+  font-family: var(--standardFont);
+  background-color: var(--cream);
 }
+
+.marginBox {
+  /* border: 2px dashed red; */
+  margin: var(--standard-margin);
+}
+
+.IndividualLesson p {
+  font-size: var(--p-font-size);
+}
+
+.IndividualLesson h1 {
+  font-size: var(--h1-font-size);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.IndividualLesson h3 {
+  font-size: var(--h3-font-size);
+  margin: 15px 0px;
+}
+
+.IndividualLesson h4 {
+  text-align: center;
+  font-size: var(--h4-font-size);
+  margin: 15px 0px;
+}
+.IndividualLesson ul {
+  font-size: var(--p-font-size);
+  margin: 2px 10px;
+}
+
 .backBox {
   text-align: center;
   width: 100%;
   display: flex;
   justify-content: start;
-  padding-top: 20px;
-  /* background-color: wheat; */
-
 }
 .link-backbox {
   text-decoration: none;
-  color: #8739f9;
-} 
+  color: var(--purple);
+}
 .link-backbox:hover {
   text-decoration: underline;
-  color: #8739f9;
-} 
-
-
-.h1-IndividualLesson {
-  margin-top: 20px;
-  text-align: center;
+  color: var(--purple);
 }
 
-.contentContainerOuterBox p {
-  margin: auto 40px;
+.h1-IndividualLesson {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: var(--h3-font-size);
   text-align: center;
 }
 
 .contentContainer {
   max-width: 100%;
-  margin-block: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,11 +73,12 @@ h3 {
 .my-table,
 table {
   border-collapse: collapse;
-  margin: 1.75rem;
-  font-size: 0.75rem;
+  font-size: var(--table-font-size);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .my-table th,
@@ -68,30 +88,29 @@ td {
   border: 1px solid black; /* Change the border color to black */
   padding: 1rem;
   text-align: left;
-  background-color: white;
+  background-color: var(--white);
 }
 
 table tr,
 table td {
   border: 1px solid black; /* Change the border color to black */
-  background-color: whit;
+  background-color: var(--white);
 }
 
 .my-table th,
 table th {
-  color: #252525;
-  background-color: #8739f9;
+  color: var(--white);
+  background-color: var(--purple);
 }
 
 .my-table .table-heading {
   font-weight: bold;
 }
 
-
 /* Define CSS styles for table headers */
 .my-table thead tr {
-  background-color: #333;
-  color: white;
+  background-color: var(--off_black);
+  color: var(--white);
 }
 
 #table-wide {
@@ -101,36 +120,16 @@ table th {
   display: none;
 }
 
-.individuallesson-link {
+.individuallesson-link,
+.IndividualLesson a {
   text-decoration: none;
-  color: #8739f9;
+  color: var(--purple);
   font-weight: bold;
 }
-
 
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 769px) {
-  
-  .IndividualLesson ul li  {
- padding-inline: 30px;
-   }
-  
-  .backBox {
-    gap: 15px;
-    font-size: 1.3rem;
-  }
-  
-
-  ul {
- width: 390px;
-
-
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-
   #table-wide {
     display: none;
   }
@@ -141,27 +140,19 @@ table th {
   .my-table,
   table {
     border-collapse: collapse;
-    margin: 1.5rem;
-    font-size: 0.7rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   }
+  }
+
+  .my-table th,
+  th,
+  .my-table td,
+  td {
+    padding: 0.75rem;
+  }
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
-.backBox {
-  gap: 15px;
-  font-size: 1.45rem;
-}
 
 /* LARGE SCREENS + */
 @media (min-width: 1200px) {
-  .backBox {
-    gap: 40px;
-    font-size: 1.7rem;
-  }
-  
-.my-table,
-table {
-  margin: 2% 4%;
-}
 }

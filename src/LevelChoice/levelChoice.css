@@ -1,16 +1,18 @@
 /* STANDARD TEMPLATE */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .LevelChoice {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: #fff5e1;
-  
+  background-color: var(--cream);
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
 }
-.levelchoice-logo{
+.levelchoice-logo {
   width: 150px;
   height: 150px;
   margin-top: 10px;
@@ -21,26 +23,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:  #252525;
+  background-color: var(--off_back);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding-top: 10px;
   width: 100%;
   padding: 10px;
   border-top: 2px solid transparent; /* Make the top border transparent */
-  border-image: linear-gradient(to right, #8739f9, #25c3e7);
+  border-image: linear-gradient(to right, var(--purple), var(--blue));
   border-image-slice: 1;
 }
 
 .h1-LevelChoice {
-  color: white;
-  font-family: 'Roboto', sans-serif;
- }
+  color: var(--white);
+  font-family: var(--standardFont);
+  font-size: var(--h2-font-size);
+}
 
 .p-levelchoice {
   text-align: center;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-
+  color: var(--white);
+  font-family: var(--standardFont);
+  font-size: var(--p-font-size);
 }
 
 .buttonMappingBox {
@@ -48,81 +51,51 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3%;
-  
 }
 
 /* SMALL SCREENS - MEDIUM SCREENS */
 @media (max-width: 768px) {
-  .h1-LevelChoice {
-    font-size: 1.2rem;
-  }
-
-  .p-levelchoice {
-    font-size: 1rem;
-  }
-
-  
-.buttonMappingBox {
-  margin: 20px auto;
-  
-}
-
-  .p-levelchoice-extra{
+  .p-levelchoice-extra {
     display: none;
-    }
-  
+  }
 }
-
-
 
 /* MEDIUM SCREENS - LARGE SCREENS */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .h1-LevelChoice {
-    font-size: 1.5rem;
-  }
-
-  .p-levelchoice {
-    font-size: 1.2rem;
+  .p-levelchoice-extra {
+    display: block;
   }
 }
-/* LARGE SCREENS + */
-@media (min-width: 1200px) {
 
+/* LARGE SCREENS + */
+
+@media (min-width: 1200px) {
   .LevelChoice {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-  }
-
-  .h1-LevelChoice {
-    font-size: 1.5rem;
   }
 
   .p-levelchoice {
-   display: none;
+    display: none;
   }
 
-  .p-levelchoice-extra{
-    color: white;
-    font-family: 'Roboto', sans-serif;
+  .p-levelchoice-extra {
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
     display: block;
     text-align: justify;
     max-width: 50em; /* Adjust as needed for your design */
-
   }
 
   .buttonMappingBox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 3%;
+    justify-content: space-evenly;
     width: 100%;
     height: 100%;
-
   }
 }

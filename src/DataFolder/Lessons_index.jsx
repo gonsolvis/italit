@@ -8,6 +8,7 @@ import INDEFINITE_ARTICLES_GAME from "./GameInformation/INDEFINITE_ARTICLES_GAME
 import GENDERS_GAME from "./GameInformation/GENDERS_GAME";
 import NUMBERS_LESSSON from "./LessonContent/LessonInformation/A1/NUMBERS_LESSSON";
 import NUMBERS_GAME from "./GameInformation/NUMBERS_GAME";
+import INTRO_CONJUGATION_LESSON from "./LessonContent/LessonInformation/A1/INTRO_CONJUGATION_LESSON";
 const LESSONS_INDEX = {
   lessons: [
     {
@@ -43,6 +44,13 @@ const LESSONS_INDEX = {
       title: NUMBERS_LESSSON[0].Lesson_title,
       lessonUrl: NUMBERS_LESSSON[0].lessonUrl,
       gameUrl: NUMBERS_LESSSON[0].gameUrl,
+      game: NUMBERS_GAME,
+    },
+    {
+      lesson: INTRO_CONJUGATION_LESSON,
+      title: INTRO_CONJUGATION_LESSON[0].Lesson_title,
+      lessonUrl: INTRO_CONJUGATION_LESSON[0].lessonUrl,
+      gameUrl: INTRO_CONJUGATION_LESSON[0].gameUrl,
       game: NUMBERS_GAME,
     },
 

@@ -113,7 +113,6 @@ const DEFINITE_ARTICLES_LESSON = [
     </tbody>
 </table>
 
-</br>
 <h3>L'amica</h3>
 
 <p> It is important to know that <strong>"L'"</strong> is used before both masculine and feminine singular nouns that begin with a vowel.

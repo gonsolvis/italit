@@ -12,10 +12,9 @@ function IndividualLevelLandingPage(props) {
   return (
     <div className="IndividualLevelLandingPage">
       <h1 className="IndividualLevelLandingPage-h1"> Lessons {props.level}</h1>
-     <div className="IndividualLevelLandingPage-backbutton">
-      <button>
-      <BackButton />
-      </button>
+     <div className="IndividualLevelLandingPage-backbutton-container">
+           <BackButton />
+   
       </div>
       <div className="card-container">
         {props.lessons.map((lesson, index) => (

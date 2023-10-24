@@ -58,7 +58,7 @@ const GREETINGS_LESSON = [
             <td>What's your name?</em></td>
         </tr>
     </table>
-    </br>
+    
     
     <p>Learning these basic Italian greetings and phrases is a fantastic way to start 
     your journey into the Italian language.

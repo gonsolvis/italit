@@ -3,8 +3,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px;
 }
 .LessonImage {
   width: 150px;
   height: 150px;
+}
+
+/* STANDARD TEMPLATE */
+/* SMALL SCREENS - MEDIUM SCREENS */
+/* MEDIUM SCREENS - LARGE SCREENS */
+/* LARGE SCREENS + */
+
+@media (max-width: 769px) {
+  .LessonImage {
+    width: 125px;
+    height: 125px;
+  }
+ 
 }

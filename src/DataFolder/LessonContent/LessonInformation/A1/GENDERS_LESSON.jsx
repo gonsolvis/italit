@@ -8,8 +8,7 @@ const GENDERS_LESSON = [
     content: `
            <h3>How to Determine Noun Gender</h3>
         <p>In Italian, the gender of a noun is not always immediately obvious from the word itself. Here are some general guidelines to help you determine the gender of Italian nouns:</p>
-        </br>
-        <ul>
+          <ul>
           <li> Nouns ending in -o are typically masculine. For example, <em>libro</em> (book) is masculine. Other masculine nouns ending in -o include <em>ragazzo</em> (boy), <em>cane</em> (dog), <em>tavolo</em> (table), and <em>amico</em> (friend).</li>
   
           <li>Nouns ending in -a are generally feminine. For example, <em>casa</em> (house) is feminine. Additional feminine nouns ending in -a include <em>ragazza</em> (girl), <em>macchina</em> (car), <em>pizza</em> (pizza), and <em>lingua</em> (language).</li>
@@ -166,9 +165,6 @@ const GENDERS_LESSON = [
     </tbody>
   </table>
   
-   
-  <br/> 
-
   <h3>Professioni</h3>
 <p> When it comes to professions, many in Italian have distinct forms for both masculine and feminine genders. 
 <table class="my-table">
@@ -254,7 +250,6 @@ const GENDERS_LESSON = [
   </tbody>
 </table>
 
-<br/>
   <h3>Exceptions</h3>
   <p>While these rules generally apply to regular nouns, there can be exceptions in the Italian language. Some nouns may not follow the typical gender patterns, so it's essential to learn them individually.</p>
   
