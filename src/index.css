@@ -1,16 +1,14 @@
-
-
 /* Import the font using @import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* COLOURS */
 :root {
-  --purple:#8739f9;
-  --blue: #37B9F1;
+  --purple: #8739f9;
+  --blue: #37b9f1;
   --green: #14de5e;
   --cream: #fff5e1;
-  --off_back:#252525;
-  --white:white;
+  --off_back: #252525;
+  --white: white;
 }
 
 /* FONTS */
@@ -27,14 +25,9 @@
   src: var(--woff2-font-source), var(--woff-font-source);
 }
 
-
-
 :root {
-  --standardFont: 'Roboto', sans-serif; /* Define a CSS variable for the font family */
+  --standardFont: "Roboto", sans-serif; /* Define a CSS variable for the font family */
 }
-
-
-
 
 /* STANDARD TEMPLATE */
 :root {
@@ -48,6 +41,7 @@
   --table-font-size: 0.875rem;
   --button-font-size: 1rem; /* Default button font size */
   --standard-padding: 4% 4%;
+  --standard-margin: 5% 5%;
 }
 
 /* SMALL SCREENS */
@@ -100,4 +94,3 @@
     --button-font-size: 1.2rem; /* Adjust the button font size for large screens */
   }
 }
-

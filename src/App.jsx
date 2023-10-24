@@ -59,7 +59,7 @@ function App() {
                     lessonUrl={lesson.lessonUrl}
                   />
                 }
-                console
+                
               />
             );
           })}

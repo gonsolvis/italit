@@ -7,54 +7,58 @@
   text-align: justify;
   font-family: var(--standardFont);
   background-color: var(--cream);
-  padding: var(--standard-padding);
-
 }
 
-.IndividualLesson p{
-  font-size: var(--p-font-size) ;
+.marginBox {
+  /* border: 2px dashed red; */
+  margin: var(--standard-margin);
+}
+
+.IndividualLesson p {
+  font-size: var(--p-font-size);
 }
 
 .IndividualLesson h1 {
   font-size: var(--h1-font-size);
   margin: 20px 0px;
-  text-align: center; 
+  text-align: center;
 }
 
 .IndividualLesson h3 {
-  font-size: var(--h3-font-size) ;
+  font-size: var(--h3-font-size);
   margin: 15px 0px;
 }
-.IndividualLesson ul{
-  font-size: var(--p-font-size);
-  margin:2px 10px;
-  }
 
+.IndividualLesson h4 {
+  text-align: center;
+  font-size: var(--h4-font-size);
+  margin: 15px 0px;
+}
+.IndividualLesson ul {
+  font-size: var(--p-font-size);
+  margin: 2px 10px;
+}
 
 .backBox {
   text-align: center;
   width: 100%;
   display: flex;
   justify-content: start;
-
-
 }
 .link-backbox {
   text-decoration: none;
   color: var(--purple);
-} 
+}
 .link-backbox:hover {
   text-decoration: underline;
   color: var(--purple);
-} 
-
+}
 
 .h1-IndividualLesson {
- 
 }
 
 h3 {
-  font-size: var( --h3-font-size);
+  font-size: var(--h3-font-size);
   text-align: center;
 }
 
@@ -63,7 +67,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 /* Table styles */
@@ -76,7 +79,6 @@ table {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 .my-table th,
@@ -97,7 +99,7 @@ table td {
 
 .my-table th,
 table th {
-  color: var(--off_black);
+  color: var(--white);
   background-color: var(--purple);
 }
 
@@ -105,10 +107,9 @@ table th {
   font-weight: bold;
 }
 
-
 /* Define CSS styles for table headers */
 .my-table thead tr {
-  background-color:var(--off_black);
+  background-color: var(--off_black);
   color: var(--white);
 }
 
@@ -119,17 +120,16 @@ table th {
   display: none;
 }
 
-.individuallesson-link {
+.individuallesson-link,
+.IndividualLesson a {
   text-decoration: none;
   color: var(--purple);
   font-weight: bold;
 }
 
-
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 769px) {
-  
   #table-wide {
     display: none;
   }
@@ -141,13 +141,18 @@ table th {
   table {
     border-collapse: collapse;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   }
+  }
+
+  .my-table th,
+  th,
+  .my-table td,
+  td {
+    padding: 0.75rem;
+  }
 }
 
 /* MEDIUM SCREENS - LARGE SCREENS */
 
-
 /* LARGE SCREENS + */
 @media (min-width: 1200px) {
-
 }

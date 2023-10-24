@@ -1,0 +1,31 @@
+/* STANDARD TEMPLATE */
+.backBox {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding-left: 25px;
+  font-size: var( --h3-font-size);
+}
+
+.link-backbox {
+  text-decoration: none;
+  color: var(--purple);
+}
+.link-backbox:hover {
+  text-decoration: underline;
+  color: var(--purple);
+}
+
+/* SMALL SCREENS - MEDIUM SCREENS */
+
+@media (max-width: 769px) {
+
+}
+
+/* MEDIUM SCREENS - LARGE SCREENS */
+
+
+/* LARGE SCREENS + */
+@media (min-width: 1200px) {
+}

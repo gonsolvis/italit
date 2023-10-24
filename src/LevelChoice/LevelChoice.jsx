@@ -12,8 +12,8 @@ function LevelChoice() {
         <h1 className="h1-LevelChoice"> Choose a level</h1>
 
         <p className="p-levelchoice">
-          Choose below from lessons starting from A1 to C2.
-          We will help you along the way with lessons and games!{" "}
+          Choose below from lessons starting from A1 to C2. We will help you
+          along the way with lessons and games!{" "}
         </p>
 
         <p className="p-levelchoice-extra">
@@ -38,14 +38,9 @@ function LevelChoice() {
           />
         ))}
 
-        {LESSONS_BREAKDOWN.map((circle, index) => (
-          <CircularButton
-            key={index}
-            title={circle.level}
-            color={circle.color}
-            levelUrl={circle.levelUrl}
-          />
-        ))}
+        <CircularButton title="B2" color="var(--blue)" levelUrl="*" />
+        <CircularButton title="C1" color="var(--purple)" levelUrl="*" />
+        <CircularButton title="C2" color="var(--green)" levelUrl="*" />
       </div>
     </div>
   );

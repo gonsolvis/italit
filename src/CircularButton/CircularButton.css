@@ -9,15 +9,15 @@
 
 .circular-button {
   color: var(--white);
-  border-radius: 50%; 
+  border-radius: 50%;
   border: 10px solid transparent;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); 
-  transition: background-color 0.3s ease, transform 0.3s ease; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease, transform 0.3s ease;
   font-size: var(--p-font-size);
 }
 
 .circular-button:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   transform: translateY(-10px);
 }
 .circular-button-link {
@@ -27,8 +27,8 @@
 /* SMALL SCREENS - MEDIUM SCREENS */
 @media (max-width: 768px) {
   .circular-button {
-    width: 90px; 
-    height: 90px; 
+    width: 90px;
+    height: 90px;
   }
   .circular-button:hover {
     transform: translateX(10px);
@@ -38,8 +38,8 @@
 /* MEDIUM SCREENS - LARGE SCREENS */
 @media (min-width: 767px) {
   .circular-button {
-    width: 120px; 
-    height: 120px; 
+    width: 120px;
+    height: 120px;
   }
 }
 /* LARGE SCREENS + */

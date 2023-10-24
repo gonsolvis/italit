@@ -1,6 +1,6 @@
 /* STANDARD TEMPLATE */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .LevelChoice {
   display: flex;
@@ -11,9 +11,8 @@
   width: 100%;
   height: 100vh;
   overflow-y: auto;
-  
 }
-.levelchoice-logo{
+.levelchoice-logo {
   width: 150px;
   height: 150px;
   margin-top: 10px;
@@ -24,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:  var(--off_back);
+  background-color: var(--off_back);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   padding-top: 10px;
   width: 100%;
@@ -35,17 +34,16 @@
 }
 
 .h1-LevelChoice {
-  color:var(--white);
+  color: var(--white);
   font-family: var(--standardFont);
   font-size: var(--h2-font-size);
- }
+}
 
 .p-levelchoice {
   text-align: center;
-  color:var(--white);
+  color: var(--white);
   font-family: var(--standardFont);
   font-size: var(--p-font-size);
-
 }
 
 .buttonMappingBox {
@@ -53,59 +51,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
-
-  
 }
 
 /* SMALL SCREENS - MEDIUM SCREENS */
 @media (max-width: 768px) {
- 
-  .p-levelchoice-extra{
+  .p-levelchoice-extra {
     display: none;
-    }
-  
+  }
 }
-
-
 
 /* MEDIUM SCREENS - LARGE SCREENS */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-.p-levelchoice-extra{
+  .p-levelchoice-extra {
     display: block;
-    } 
   }
+}
 
-  
-
-  
 /* LARGE SCREENS + */
 
-
 @media (min-width: 1200px) {
-
   .LevelChoice {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
   }
 
-   .p-levelchoice {
-   display: none;
+  .p-levelchoice {
+    display: none;
   }
 
-  .p-levelchoice-extra{
-    color:var(--white);
-    font-family: 'Roboto', sans-serif;
+  .p-levelchoice-extra {
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
     display: block;
     text-align: justify;
     max-width: 50em; /* Adjust as needed for your design */
-
   }
 
   .buttonMappingBox {
