@@ -22,7 +22,7 @@
   width: 80%;
 }
 
-.IndividualLevelLandingPage button {
+/* .IndividualLevelLandingPage button {
   border: none;
   width: 220px;
   height: 60px;
@@ -31,21 +31,14 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 
-}
+} */
 
-.IndividualLevelLandingPage
-  .BackButton
-  .backBox
-  .link-backbox
-  #faArrowLeft {
-    color: var(--white) !important;
+.IndividualLevelLandingPage .BackButton .backBox .link-backbox #faArrowLeft {
+  color: var(--white) !important;
 }
-.IndividualLevelLandingPage
-  .BackButton
-  .backBox
-  .link-backbox{
-    color: var(--white) !important;
-  }
+.IndividualLevelLandingPage .BackButton .backBox .link-backbox {
+  color: var(--white) !important;
+}
 
 .IndividualLevelLandingPage-h1 {
   color: var(--white);
