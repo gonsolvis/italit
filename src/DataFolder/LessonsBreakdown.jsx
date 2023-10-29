@@ -49,6 +49,19 @@ const LESSONS_BREAKDOWN = [
         // lesson: lesson8,
       },
       {
+        title: LESSONS_INDEX.lessons[6].title,
+        lessonUrl: LESSONS_INDEX.lessons[6].lessonUrl,
+        gameUrl: LESSONS_INDEX.lessons[6].gameUrl,
+        nextLessonUrl: LESSONS_INDEX.lessons[6].lessonUrl,
+        // lesson: lesson8,
+      },
+      {
+        title: "Present Tense",
+        lessonUrl: "/italian-grammar/a1/lesson/present_tense", // Updated
+        gameUrl: "/italian-grammar/a1/game/present_tense",
+        // lesson: lesson4,
+      },
+      {
         title: "Family and Relationships",
         lessonUrl: "/italian-grammar/a1/lesson/family", // Updated
         gameUrl: "/italian-grammar/a1/game/family",

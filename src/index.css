@@ -54,7 +54,7 @@
     --big-p-font-size: 1rem;
     --p-font-size: 0.875rem;
     --table-font-size: 0.75rem;
-    --button-font-size: 0.9rem; /* Adjust the button font size for small screens */
+    --button-font-size: 0.75rem; /* Adjust the button font size for small screens */
   }
 }
 
@@ -67,7 +67,7 @@
     --big-p-font-size: 1.35rem;
     --p-font-size: 1.125rem;
     --table-font-size: 1rem;
-    --button-font-size: 1.1rem; /* Adjust the button font size for medium screens */
+    --button-font-size: 1rem; /* Adjust the button font size for medium screens */
   }
 }
 
@@ -80,7 +80,7 @@
     --big-p-font-size: 1.35rem;
     --p-font-size: 1.25rem;
     --table-font-size: 1.125rem;
-    --button-font-size: 1.2rem; /* Adjust the button font size for large screens */
+    --button-font-size: 1rem; /* Adjust the button font size for large screens */
   }
 }
 /* XL LARGER SCREENS + */
@@ -92,6 +92,6 @@
     --big-p-font-size: 1.4rem;
     --p-font-size: 1.25rem;
     --table-font-size: 1.125rem;
-    --button-font-size: 1.2rem; /* Adjust the button font size for large screens */
+    --button-font-size: 1rem; /* Adjust the button font size for large screens */
   }
 }

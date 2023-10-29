@@ -25,21 +25,19 @@ function BackButton() {
   }
   console.log("backlink:", backlink);
   return (
-    <div className="BackButton">
-      <div className="backBox">
-        <Link to={backlink} className="link-backbox">
-          <button className="backBoxButton">
-            <span>
-              <FontAwesomeIcon
-                id="faArrowLeft"
-                icon={faArrowLeft}
-                style={{ color: "var(--white)" }}
-              />
-            </span>
-            <span>{text}</span>
-          </button>
-        </Link>
-      </div>
+    <div className="BackButton-div">
+      <Link to={backlink} className="link-backbox">
+        <button className="backBoxButton">
+          <span>
+            <FontAwesomeIcon
+              id="faArrowLeft"
+              icon={faArrowLeft}
+              style={{ color: "var(--white)" }}
+            />
+          </span>
+          <span>{text}</span>
+        </button>
+      </Link>
     </div>
   );
 }

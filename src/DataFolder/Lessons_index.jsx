@@ -9,6 +9,8 @@ import GENDERS_GAME from "./GameInformation/GENDERS_GAME";
 import NUMBERS_LESSSON from "./LessonContent/LessonInformation/A1/NUMBERS_LESSSON";
 import NUMBERS_GAME from "./GameInformation/NUMBERS_GAME";
 import INTRO_CONJUGATION_LESSON from "./LessonContent/LessonInformation/A1/INTRO_CONJUGATION_LESSON";
+import PRESENT_TENSE from "./LessonContent/LessonInformation/A1/PRESENT_TENSE";
+
 const LESSONS_INDEX = {
   lessons: [
     {
@@ -51,6 +53,13 @@ const LESSONS_INDEX = {
       title: INTRO_CONJUGATION_LESSON[0].Lesson_title,
       lessonUrl: INTRO_CONJUGATION_LESSON[0].lessonUrl,
       gameUrl: INTRO_CONJUGATION_LESSON[0].gameUrl,
+      game: NUMBERS_GAME,
+    },
+    {
+      lesson: PRESENT_TENSE,
+      title: PRESENT_TENSE[0].Lesson_title,
+      lessonUrl: PRESENT_TENSE[0].lessonUrl,
+      gameUrl: PRESENT_TENSE[0].gameUrl,
       game: NUMBERS_GAME,
     },
 

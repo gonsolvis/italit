@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import PointsComp from "./PointsComp";
 import YouHaveLost from "./YouHaveLost";
 import TimesUp from "./TimesUp";
+import BackButton from "../BackButton/BackButton";
 
 const AMOUNT_OF_CARDS = 3;
 
@@ -16,7 +17,7 @@ function GameStructure({ cards, lessonUrl }) {
   const [randomIndex, setRandomIndex] = useState(0);
   const [countdown, setCountdown] = useState(45);
   const [shake, setShake] = useState(false);
-  
+
   function setRandomSymbolCards() {
     const newArrayOfSymbolCards = [];
 
@@ -39,7 +40,7 @@ function GameStructure({ cards, lessonUrl }) {
   //clickhandler
   function ChecksIfMatchOnClick(element_two) {
     let leftCard = randomCards[randomIndex].element_one;
-  
+
     if (leftCard === element_two) {
       setScore((prevScore) => prevScore + 1); // Increase the score by 1
       setRandomSymbolCards();
@@ -48,7 +49,7 @@ function GameStructure({ cards, lessonUrl }) {
       setHearts((prevScore) => prevScore - 1); // Decrease the score by 1
       score >= 1 && setScore((prevScore) => prevScore - 1);
     }
-  
+
     // Use setTimeout to reset the shake state after a certain duration (e.g., 1 second)
     setTimeout(() => {
       setShake(false);
@@ -87,6 +88,9 @@ function GameStructure({ cards, lessonUrl }) {
   return randomCards.length ? (
     <div className="outside--gameStructure">
       <div className="inner-gamestructure">
+        <div className="backButton-gamestructure">
+          <BackButton />
+        </div>
         <div className="points-box">
           <PointsComp
             currentScore={score}

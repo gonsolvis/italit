@@ -17,16 +17,24 @@ textsize one: 2rem*/
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px dashed blue;
 }
 
 .inner-gamestructure {
-  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  border: 2px dashed red;
 }
 
+.backButton-gamestructure {
+  display: flex;
+  justify-content: start;
+  gap: 10%;
+  align-items: center;
+  margin: var(--standard-margin);
+  width: 100%;
+}
 .points-box {
   display: flex;
   flex-direction: column;
@@ -41,7 +49,7 @@ textsize one: 2rem*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-radius: 20px;
+  border-radius: 0.25rem;
 }
 
 #score {
@@ -105,15 +113,23 @@ textsize one: 2rem*/
   justify-content: space-evenly;
 }
 
-
-
 /* CSS Animation for shaking */
 @keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
-  100% { transform: translateX(5px); }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }
 
 .game--card--div.shake-animation {
@@ -121,16 +137,14 @@ textsize one: 2rem*/
   border: 2px solid red; /* Default border color (black) */
 }
 
-
 /* SMALL SCREENS - MEDIUM SCREENS */
 
 @media (max-width: 575px) {
-
-  .inner-gamestructure {
+  /* .inner-gamestructure {
     height: 70%;
-    width: 1000%;
-
-  }
+    width: 100%;
+    margin: var(--standard-margin);
+  } */
 
   .cards-container {
     display: flex;
@@ -195,8 +209,6 @@ textsize one: 2rem*/
 /* LARGE SCREENS + */
 @media screen and (min-width: 1200px) {
   .inner-gamestructure {
-    height: 90%;
-    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

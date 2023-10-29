@@ -4,6 +4,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 import BackButton from "../BackButton/BackButton";
 import LessonImage from "../LessonImage/LessonImage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 
 function IndividualLesson(props) {
   return (
@@ -25,7 +27,12 @@ function IndividualLesson(props) {
                   Test your knowledge of {lesson.Lesson_title} with our
                   <Link className="individuallesson-link" to={props.gameUrl}>
                     {" "}
-                    QUIZ!
+                    QUIZ!{" "}
+                    <FontAwesomeIcon
+                      id="faChartSimple"
+                      icon={faGamepad}
+                      style={{ color: "var(--purple)" }}
+                    />
                   </Link>
                 </>
               ) : (
