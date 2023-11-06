@@ -11,9 +11,9 @@ import IndividualLesson from "./IndividualLesson/IndividualLesson.jsx";
 import LESSONS_INDEX from "./DataFolder/Lessons_index";
 import GameStructure from "./GameStructure/GameStructure";
 import NotFoundPage from "./NotFoundPage/NotFoundPage";
+import GameStructure2 from "./GameStructure/GameStructure2";
 
 function App() {
-
   return (
     <div className="appComp">
       <Router>
@@ -49,17 +49,23 @@ function App() {
           ))}
 
           {LESSONS_INDEX.lessons.map((lesson, index) => {
-                return (
+            return (
               <Route
                 key={index}
                 path={`/${lesson.gameUrl}`}
                 element={
-                  <GameStructure
-                    cards={lesson.game[0].gameObject}
-                    lessonUrl={lesson.lessonUrl}
-                  />
+                  lesson.game[0].gameType == 2 ? (
+                    <GameStructure2
+                      cards={lesson.game[0].gameObject}
+                      lessonUrl={lesson.lessonUrl}
+                    />
+                  ) : (
+                    <GameStructure
+                      cards={lesson.game[0].gameObject}
+                      lessonUrl={lesson.lessonUrl}
+                    />
+                  )
                 }
-                
               />
             );
           })}

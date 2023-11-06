@@ -7,9 +7,10 @@ import PointsComp from "./PointsComp";
 import YouHaveLost from "./YouHaveLost";
 import TimesUp from "./TimesUp";
 import BackButton from "../BackButton/BackButton";
+import InstructionModal from "./InstructionsModal";
 
 const AMOUNT_OF_CARDS = 3;
-
+console.log("i am game struute 1");
 function GameStructure({ cards, lessonUrl }) {
   const [randomCards, setRandomCards] = useState([]);
   const [score, setScore] = useState(0);
